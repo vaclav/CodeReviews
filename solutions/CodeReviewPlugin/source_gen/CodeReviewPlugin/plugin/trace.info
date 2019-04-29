@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350061718">
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350061718" at="14,0,15,0" concept="3" trace="myId" />
+      <node id="5902677980350061718" at="17,27,18,16" concept="9" />
+      <node id="5902677980350061718" at="20,30,21,30" concept="10" />
+      <node id="5902677980350061718" at="23,44,24,14" concept="10" />
+      <node id="5902677980350061718" at="30,48,31,92" concept="8" />
+      <node id="5902677980350061718" at="34,70,35,15" concept="9" />
+      <node id="5902677980350061718" at="15,0,17,0" concept="1" trace="CodeReviewPlugin_ApplicationPlugin#()V" />
+      <node id="5902677980350061718" at="17,0,20,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="5902677980350061718" at="27,0,30,0" concept="7" trace="adjustRegularGroups#()V" />
+      <node id="5902677980350061718" at="20,0,27,0" concept="7" trace="createGroups#()V" />
+      <node id="5902677980350061718" at="30,0,37,0" concept="7" trace="initKeymaps#()Ljava/util/List;" />
+      <scope id="5902677980350061718" at="15,47,15,47" />
+      <scope id="5902677980350061718" at="17,27,18,16" />
+      <scope id="5902677980350061718" at="27,37,28,88" />
+      <scope id="5902677980350061718" at="15,0,17,0" />
+      <scope id="5902677980350061718" at="17,0,20,0" />
+      <scope id="5902677980350061718" at="27,0,30,0" />
+      <scope id="5902677980350061718" at="20,30,25,50" />
+      <scope id="5902677980350061718" at="30,48,35,15">
+        <var name="res" id="5902677980350061718" />
+      </scope>
+      <scope id="5902677980350061718" at="20,0,27,0" />
+      <scope id="5902677980350061718" at="30,0,37,0" />
+      <unit id="5902677980350061718" at="13,0,38,0" name="CodeReviewPlugin.plugin.CodeReviewPlugin_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350061836">
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350061836" at="22,44,23,44" concept="2" />
+    </file>
+    <file name="ShowCodeReviews_Action.java">
+      <node id="5902677980350061836" at="15,0,16,0" concept="12" trace="ICON" />
+      <node id="5902677980350061836" at="17,35,18,92" concept="14" />
+      <node id="5902677980350061836" at="18,92,19,35" concept="2" />
+      <node id="5902677980350061836" at="19,35,20,41" concept="2" />
+      <node id="5902677980350061836" at="23,32,24,16" concept="9" />
+      <node id="5902677980350195300" at="27,87,28,104" concept="8" />
+      <node id="5902677980350206393" at="28,104,29,66" concept="8" />
+      <node id="5902677980350486541" at="30,37,31,18" concept="9" />
+      <node id="5902677980350258917" at="34,76,35,21" concept="9" />
+      <node id="5902677980350267998" at="37,5,38,16" concept="9" />
+      <node id="5902677980350061836" at="41,89,42,85" concept="2" />
+      <node id="5902677980350061836" at="46,53,47,19" concept="9" />
+      <node id="6573717177323541812" at="49,5,50,72" concept="8" />
+      <node id="6573717177323541813" at="51,22,52,21" concept="9" />
+      <node id="5902677980350061836" at="54,5,55,16" concept="9" />
+      <node id="5902677980349826891" at="58,96,59,104" concept="8" />
+      <node id="5902677980349819893" at="59,104,60,100" concept="2" />
+      <node id="5902677980349861660" at="60,100,61,21" concept="2" />
+      <node id="5902677980350478179" at="29,66,32,5" concept="6" />
+      <node id="5902677980350216251" at="33,44,36,7" concept="6" />
+      <node id="5902677980350061836" at="45,95,48,5" concept="6" />
+      <node id="6573717177323541813" at="50,72,53,7" concept="6" />
+      <node id="5902677980350061836" at="22,0,26,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="5902677980350061836" at="40,0,44,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5902677980350061836" at="17,0,22,0" concept="1" trace="ShowCodeReviews_Action#()V" />
+      <node id="5902677980350208759" at="32,5,37,5" concept="5" />
+      <node id="6573717177323541812" at="48,5,54,5" concept="0" />
+      <node id="5902677980350061836" at="57,0,63,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5902677980350061836" at="44,0,57,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5902677980350061836" at="26,0,40,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="5902677980350061836" at="23,32,24,16" />
+      <scope id="5902677980350478181" at="30,37,31,18" />
+      <scope id="5902677980350216253" at="34,76,35,21" />
+      <scope id="5902677980350061836" at="41,89,42,85" />
+      <scope id="5902677980350061836" at="46,53,47,19" />
+      <scope id="6573717177323541813" at="51,22,52,21" />
+      <scope id="5902677980350061836" at="17,35,20,41" />
+      <scope id="5902677980350208761" at="33,44,36,7" />
+      <scope id="5902677980350061836" at="58,96,61,21">
+        <var name="updater" id="5902677980349826892" />
+      </scope>
+      <scope id="5902677980350061836" at="22,0,26,0" />
+      <scope id="5902677980350061836" at="40,0,44,0">
+        <var name="_params" id="5902677980350061836" />
+        <var name="event" id="5902677980350061836" />
+      </scope>
+      <scope id="6573717177323541812" at="49,5,53,7">
+        <var name="p" id="6573717177323541812" />
+      </scope>
+      <scope id="5902677980350061836" at="17,0,22,0" />
+      <scope id="5902677980350208759" at="32,5,37,5">
+        <var name="hint" id="5902677980350208762" />
+      </scope>
+      <scope id="5902677980350061836" at="57,0,63,0">
+        <var name="_params" id="5902677980350061836" />
+        <var name="event" id="5902677980350061836" />
+      </scope>
+      <scope id="5902677980350061836" at="45,95,55,16" />
+      <scope id="5902677980350194708" at="27,87,38,16">
+        <var name="initialEditorHints" id="5902677980350206394" />
+        <var name="updater" id="5902677980350195301" />
+      </scope>
+      <scope id="5902677980350061836" at="44,0,57,0">
+        <var name="_params" id="5902677980350061836" />
+        <var name="event" id="5902677980350061836" />
+      </scope>
+      <scope id="5902677980350061836" at="26,0,40,0">
+        <var name="_params" id="5902677980350061836" />
+        <var name="event" id="5902677980350061836" />
+      </scope>
+      <unit id="5902677980350061836" at="14,0,64,0" name="CodeReviewPlugin.plugin.ShowCodeReviews_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350188107">
+    <file name="CodeReviewActions_ActionGroup.java">
+      <node id="5902677980350188107" at="8,0,9,0" concept="12" trace="ID" />
+      <node id="5902677980350188107" at="9,42,10,35" concept="14" />
+      <node id="5902677980350188107" at="10,35,11,30" concept="2" />
+      <node id="5902677980350188107" at="11,30,12,25" concept="2" />
+      <node id="5902677980350188112" at="12,25,13,99" concept="2" />
+      <node id="5902677980350450219" at="13,99,14,99" concept="2" />
+      <node id="5902677980350188107" at="9,0,16,0" concept="1" trace="CodeReviewActions_ActionGroup#()V" />
+      <scope id="5902677980350188107" at="9,42,14,99" />
+      <scope id="5902677980350188107" at="9,0,16,0" />
+      <unit id="5902677980350188107" at="7,0,17,0" name="CodeReviewPlugin.plugin.CodeReviewActions_ActionGroup" />
+    </file>
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350188107" at="24,14,25,50" concept="2" />
+      <node id="5902677980350188114" at="27,37,28,88" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350280812">
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350280812" at="21,30,22,44" concept="2" />
+    </file>
+    <file name="HideCodeReviews_Action.java">
+      <node id="5902677980350280812" at="15,0,16,0" concept="12" trace="ICON" />
+      <node id="5902677980350280812" at="17,35,18,94" concept="14" />
+      <node id="5902677980350280812" at="18,94,19,35" concept="2" />
+      <node id="5902677980350280812" at="19,35,20,41" concept="2" />
+      <node id="5902677980350280812" at="23,32,24,16" concept="9" />
+      <node id="5902677980350280841" at="27,87,28,104" concept="8" />
+      <node id="5902677980350280851" at="28,104,29,66" concept="8" />
+      <node id="5902677980350492373" at="30,37,31,19" concept="9" />
+      <node id="5902677980350280862" at="34,76,35,20" concept="9" />
+      <node id="5902677980350280871" at="37,5,38,17" concept="9" />
+      <node id="5902677980350280812" at="41,89,42,85" concept="2" />
+      <node id="5902677980350280812" at="46,53,47,19" concept="9" />
+      <node id="5902677980350280813" at="49,5,50,72" concept="8" />
+      <node id="5902677980350280814" at="51,22,52,21" concept="9" />
+      <node id="5902677980350280812" at="54,5,55,16" concept="9" />
+      <node id="5902677980350280817" at="58,96,59,104" concept="8" />
+      <node id="5902677980350305884" at="59,104,60,66" concept="8" />
+      <node id="5902677980350447163" at="61,37,62,13" concept="9" />
+      <node id="5902677980350447184" at="63,5,64,0" concept="11" />
+      <node id="5902677980350311065" at="64,0,65,66" concept="8" />
+      <node id="5902677980350412351" at="65,66,66,14" concept="8" />
+      <node id="5902677980350356159" at="68,96,69,44" concept="2" />
+      <node id="5902677980350425885" at="69,44,70,12" concept="2" />
+      <node id="5902677980350280827" at="72,5,73,44" concept="2" />
+      <node id="5902677980350280835" at="73,44,74,21" concept="2" />
+      <node id="5902677980350492371" at="29,66,32,5" concept="6" />
+      <node id="5902677980350280860" at="33,44,36,7" concept="6" />
+      <node id="5902677980350280812" at="45,95,48,5" concept="6" />
+      <node id="5902677980350280814" at="50,72,53,7" concept="6" />
+      <node id="5902677980350438499" at="60,66,63,5" concept="6" />
+      <node id="5902677980350280812" at="22,0,26,0" concept="7" trace="isDumbAware#()Z" />
+      <node id="5902677980350280812" at="40,0,44,0" concept="7" trace="doUpdate#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="5902677980350305893" at="67,57,71,7" concept="6" />
+      <node id="5902677980350280812" at="17,0,22,0" concept="1" trace="HideCodeReviews_Action#()V" />
+      <node id="5902677980350280858" at="32,5,37,5" concept="5" />
+      <node id="5902677980350280813" at="48,5,54,5" concept="0" />
+      <node id="5902677980350362779" at="66,14,72,5" concept="4" />
+      <node id="5902677980350280812" at="44,0,57,0" concept="7" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5902677980350280812" at="26,0,40,0" concept="7" trace="isApplicable#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <node id="5902677980350280812" at="57,0,76,0" concept="7" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <scope id="5902677980350280812" at="23,32,24,16" />
+      <scope id="5902677980350492372" at="30,37,31,19" />
+      <scope id="5902677980350280861" at="34,76,35,20" />
+      <scope id="5902677980350280812" at="41,89,42,85" />
+      <scope id="5902677980350280812" at="46,53,47,19" />
+      <scope id="5902677980350280814" at="51,22,52,21" />
+      <scope id="5902677980350438501" at="61,37,62,13" />
+      <scope id="5902677980350305894" at="68,96,70,12" />
+      <scope id="5902677980350280812" at="17,35,20,41" />
+      <scope id="5902677980350280859" at="33,44,36,7" />
+      <scope id="5902677980350280812" at="22,0,26,0" />
+      <scope id="5902677980350280812" at="40,0,44,0">
+        <var name="_params" id="5902677980350280812" />
+        <var name="event" id="5902677980350280812" />
+      </scope>
+      <scope id="5902677980350280813" at="49,5,53,7">
+        <var name="p" id="5902677980350280813" />
+      </scope>
+      <scope id="5902677980350362781" at="67,57,71,7" />
+      <scope id="5902677980350280812" at="17,0,22,0" />
+      <scope id="5902677980350280858" at="32,5,37,5">
+        <var name="hint" id="5902677980350280868" />
+      </scope>
+      <scope id="5902677980350362779" at="66,14,72,5">
+        <var name="i" id="5902677980350362782" />
+      </scope>
+      <scope id="5902677980350280812" at="45,95,55,16" />
+      <scope id="5902677980350280840" at="27,87,38,17">
+        <var name="initialEditorHints" id="5902677980350280852" />
+        <var name="updater" id="5902677980350280842" />
+      </scope>
+      <scope id="5902677980350280812" at="44,0,57,0">
+        <var name="_params" id="5902677980350280812" />
+        <var name="event" id="5902677980350280812" />
+      </scope>
+      <scope id="5902677980350280812" at="26,0,40,0">
+        <var name="_params" id="5902677980350280812" />
+        <var name="event" id="5902677980350280812" />
+      </scope>
+      <scope id="5902677980350280812" at="58,96,74,21">
+        <var name="initialEditorHints" id="5902677980350305885" />
+        <var name="j" id="5902677980350412354" />
+        <var name="newHints" id="5902677980350311071" />
+        <var name="updater" id="5902677980350280818" />
+      </scope>
+      <scope id="5902677980350280812" at="57,0,76,0">
+        <var name="_params" id="5902677980350280812" />
+        <var name="event" id="5902677980350280812" />
+      </scope>
+      <unit id="5902677980350280812" at="14,0,77,0" name="CodeReviewPlugin.plugin.HideCodeReviews_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350520913">
+    <file name="CodeReviewKeys_KeymapChanges.java">
+      <node id="5902677980350520913" at="11,41,12,14" concept="10" />
+      <node id="5902677980350538803" at="12,14,13,105" concept="2" />
+      <node id="5902677980350520916" at="13,105,14,105" concept="2" />
+      <node id="5902677980350520913" at="14,105,15,28" concept="10" />
+      <node id="5902677980350520913" at="15,28,16,15" concept="10" />
+      <node id="5902677980350520913" at="18,29,19,22" concept="9" />
+      <node id="5902677980350520913" at="21,53,22,70" concept="9" />
+      <node id="5902677980350520913" at="18,0,21,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <node id="5902677980350520913" at="21,0,24,0" concept="13" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
+      <node id="5902677980350520913" at="11,0,18,0" concept="1" trace="CodeReviewKeys_KeymapChanges#()V" />
+      <scope id="5902677980350520913" at="18,29,19,22" />
+      <scope id="5902677980350520913" at="21,53,22,70" />
+      <scope id="5902677980350520913" at="18,0,21,0" />
+      <scope id="5902677980350520913" at="21,0,24,0">
+        <var name="stroke" id="5902677980350520913" />
+      </scope>
+      <scope id="5902677980350520913" at="11,41,16,15" />
+      <scope id="5902677980350520913" at="11,0,18,0" />
+      <unit id="5902677980350520913" at="10,0,25,0" name="CodeReviewPlugin.plugin.CodeReviewKeys_KeymapChanges" />
+    </file>
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350520913" at="31,92,32,78" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350526746">
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350526746" at="33,73,34,70" concept="2" />
+    </file>
+    <file name="MacOSX_KeymapChanges.java">
+      <node id="5902677980350526746" at="11,33,12,14" concept="10" />
+      <node id="5902677980350526746" at="12,14,13,34" concept="10" />
+      <node id="5902677980350538815" at="13,34,14,157" concept="2" />
+      <node id="5902677980350526747" at="14,157,15,157" concept="2" />
+      <node id="5902677980350526746" at="15,157,16,28" concept="10" />
+      <node id="5902677980350526746" at="16,28,17,15" concept="10" />
+      <node id="5902677980350526746" at="19,29,20,22" concept="9" />
+      <node id="5902677980350526746" at="22,53,23,70" concept="9" />
+      <node id="5902677980350526746" at="19,0,22,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <node id="5902677980350526746" at="22,0,25,0" concept="13" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
+      <node id="5902677980350526746" at="11,0,19,0" concept="1" trace="MacOSX_KeymapChanges#()V" />
+      <scope id="5902677980350526746" at="19,29,20,22" />
+      <scope id="5902677980350526746" at="22,53,23,70" />
+      <scope id="5902677980350526746" at="19,0,22,0" />
+      <scope id="5902677980350526746" at="22,0,25,0">
+        <var name="stroke" id="5902677980350526746" />
+      </scope>
+      <scope id="5902677980350526746" at="11,33,17,15" />
+      <scope id="5902677980350526746" at="11,0,19,0" />
+      <unit id="5902677980350526746" at="10,0,26,0" name="CodeReviewPlugin.plugin.MacOSX_KeymapChanges" />
+    </file>
+  </root>
+  <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350526749">
+    <file name="CodeReviewPlugin_ApplicationPlugin.java">
+      <node id="5902677980350526749" at="32,78,33,73" concept="2" />
+    </file>
+    <file name="MacOSX105_KeymapChanges.java">
+      <node id="5902677980350526749" at="11,36,12,14" concept="10" />
+      <node id="5902677980350526749" at="12,14,13,34" concept="10" />
+      <node id="5902677980350538824" at="13,34,14,157" concept="2" />
+      <node id="5902677980350526750" at="14,157,15,157" concept="2" />
+      <node id="5902677980350526749" at="15,157,16,28" concept="10" />
+      <node id="5902677980350526749" at="16,28,17,15" concept="10" />
+      <node id="5902677980350526749" at="19,29,20,28" concept="9" />
+      <node id="5902677980350526749" at="22,53,23,70" concept="9" />
+      <node id="5902677980350526749" at="19,0,22,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <node id="5902677980350526749" at="22,0,25,0" concept="13" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
+      <node id="5902677980350526749" at="11,0,19,0" concept="1" trace="MacOSX105_KeymapChanges#()V" />
+      <scope id="5902677980350526749" at="19,29,20,28" />
+      <scope id="5902677980350526749" at="22,53,23,70" />
+      <scope id="5902677980350526749" at="19,0,22,0" />
+      <scope id="5902677980350526749" at="22,0,25,0">
+        <var name="stroke" id="5902677980350526749" />
+      </scope>
+      <scope id="5902677980350526749" at="11,36,17,15" />
+      <scope id="5902677980350526749" at="11,0,19,0" />
+      <unit id="5902677980350526749" at="10,0,26,0" name="CodeReviewPlugin.plugin.MacOSX105_KeymapChanges" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="CodeReviewKit" uuid="e2ea39f1-cec3-4b83-84a0-632a18936de0">
+  <exported-language name="c126621b-8cee-42a4-8eb8-ffdf4b0da36a(CodeReview)" />
+  <exported-language name="c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)" />
+</dev-kit>
+

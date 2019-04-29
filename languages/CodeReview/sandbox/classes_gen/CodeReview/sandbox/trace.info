@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:31a9832c-16a0-45e2-9b88-ec76547d586c(CodeReview.sandbox)/8276659856217779381">
+    <file name="Sample.java">
+      <node id="8276659856217779581" at="7,42,8,32" concept="0" />
+      <node id="8276659856218691689" at="8,32,9,30" concept="0" />
+      <node id="8276659856218693326" at="9,30,10,30" concept="0" />
+      <node id="8276659856217779415" at="7,0,12,0" concept="1" trace="main#([Ljava/lang/String;)V" />
+      <scope id="8276659856217779421" at="7,42,10,30" />
+      <scope id="8276659856217779415" at="7,0,12,0">
+        <var name="args" id="8276659856217779416" />
+      </scope>
+      <unit id="8276659856217779381" at="6,0,13,0" name="CodeReview.sandbox.Sample" />
+    </file>
+  </root>
+</debug-info>
+

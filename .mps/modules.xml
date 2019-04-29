@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/CodeReview/CodeReview.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/CodeReview/sandbox/CodeReview.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/CodeReviewPlugin/CodeReviewPlugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CodeReviews.build/CodeReviews.build.msd" folder="" />
     </projectModules>
   </component>
 </project>

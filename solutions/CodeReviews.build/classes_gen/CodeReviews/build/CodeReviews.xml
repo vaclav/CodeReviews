@@ -4,9 +4,6 @@
   <property name="build.tmp" location="${build.dir}/tmp/CodeReviews" />
   <property name="build.layout" location="${build.dir}/artifacts/CodeReviews" />
   <property name="mps_home" location="" />
-  <property name="INGRID_HOME" location="" />
-  <property name="dta.home" location="" />
-  <property name="mbeddr.github.core.home" location="" />
   <property name="project_home" location="" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -286,9 +283,6 @@
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
-      <macro name="INGRID_HOME" path="${INGRID_HOME}" />
-      <macro name="dta.home" path="${dta.home}" />
-      <macro name="mbeddr.github.core.home" path="${mbeddr.github.core.home}" />
       <macro name="project_home" path="${project_home}" />
     </generate>
   </target>

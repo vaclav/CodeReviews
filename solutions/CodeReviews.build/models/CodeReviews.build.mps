@@ -116,15 +116,6 @@
     <node concept="398rNT" id="57Ex__MkhAX" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
     </node>
-    <node concept="398rNT" id="57Ex__MkhB0" role="1l3spd">
-      <property role="TrG5h" value="INGRID_HOME" />
-    </node>
-    <node concept="398rNT" id="57Ex__MkhB1" role="1l3spd">
-      <property role="TrG5h" value="dta.home" />
-    </node>
-    <node concept="398rNT" id="57Ex__MkhB2" role="1l3spd">
-      <property role="TrG5h" value="mbeddr.github.core.home" />
-    </node>
     <node concept="398rNT" id="57Ex__MkhB3" role="1l3spd">
       <property role="TrG5h" value="project_home" />
     </node>

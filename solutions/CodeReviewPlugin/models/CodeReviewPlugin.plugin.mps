@@ -4,11 +4,11 @@
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
@@ -691,13 +691,13 @@
   </node>
   <node concept="Zd50a" id="57Ex__Mk3kq">
     <property role="TrG5h" value="MacOSX" />
-    <property role="Zd52Q" value="Mac OS X" />
+    <property role="Zd52Q" value="1mJS7WEAV1T/Mac_OS_X" />
     <node concept="Zd509" id="57Ex__Mk3kr" role="Zd508">
       <ref role="1bYAoF" node="57Ex__MihOc" resolve="ShowCodeReviews" />
       <node concept="pLAjd" id="57Ex__Mk3ks" role="Zd501">
         <property role="pLAjc" value="ctrl+alt+shift" />
         <property role="pLAjf" value="C" />
-        <property role="3hacHL" value="replace all" />
+        <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
     <node concept="Zd509" id="57Ex__Mk6gZ" role="Zd508">
@@ -705,19 +705,19 @@
       <node concept="pLAjd" id="57Ex__Mk6h0" role="Zd501">
         <property role="pLAjc" value="ctrl+alt+shift" />
         <property role="pLAjf" value="C" />
-        <property role="3hacHL" value="replace all" />
+        <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
   </node>
   <node concept="Zd50a" id="57Ex__Mk3kt">
     <property role="TrG5h" value="MacOSX105" />
-    <property role="Zd52Q" value="Mac OS X 10.5+" />
+    <property role="Zd52Q" value="2HiVo5PakU7/Mac_OS_X_Plus" />
     <node concept="Zd509" id="57Ex__Mk3ku" role="Zd508">
       <ref role="1bYAoF" node="57Ex__MihOc" resolve="ShowCodeReviews" />
       <node concept="pLAjd" id="57Ex__Mk3kv" role="Zd501">
         <property role="pLAjc" value="ctrl+alt+shift" />
         <property role="pLAjf" value="C" />
-        <property role="3hacHL" value="replace all" />
+        <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
     <node concept="Zd509" id="57Ex__Mk6h8" role="Zd508">
@@ -725,7 +725,7 @@
       <node concept="pLAjd" id="57Ex__Mk6h9" role="Zd501">
         <property role="pLAjc" value="ctrl+alt+shift" />
         <property role="pLAjf" value="C" />
-        <property role="3hacHL" value="replace all" />
+        <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
   </node>

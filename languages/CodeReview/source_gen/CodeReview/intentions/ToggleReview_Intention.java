@@ -12,7 +12,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
@@ -23,6 +22,9 @@ import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.openapi.editor.selection.SelectionManager;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class ToggleReview_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -41,7 +43,7 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview"), true)).isEmpty();
+    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, CONCEPTS.CodeReview$qv, true)).isEmpty();
   }
   @Override
   public boolean isSurroundWith() {
@@ -49,7 +51,7 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
   }
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
-      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ToggleReview_Intention.IntentionImplementation());
+      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new IntentionImplementation());
     }
     return myCachedExecutable;
   }
@@ -58,24 +60,32 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview"))) == null) ? "Add Review" : "Remove Review");
+      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)) == null) ? "Add Review" : "Remove Review");
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview"))) == null)) {
-        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview")), MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview"));
-        CodeReview__BehaviorDescriptor.progress_id7bsA$AwCHXS.invoke(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview"))));
+      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)) == null)) {
+        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv), CONCEPTS.CodeReview$qv);
+        CodeReview__BehaviorDescriptor.progress_id7bsA$AwCHXS.invoke(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)));
         Updater updater = editorContext.getEditorComponent().getUpdater();
         updater.setInitialEditorHints(new String[]{"CodeReview.editor.CodeReviewHints.ShowCodeReview"});
         updater.update();
-        SelectionUtil.selectCell(editorContext, ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview"))), MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last(), SelectionManager.FIRST_EDITABLE_CELL);
+        SelectionUtil.selectCell(editorContext, ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)), LINKS.changes$sLsw)).last(), SelectionManager.FIRST_EDITABLE_CELL);
       } else {
-        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview")), null);
+        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv), null);
       }
     }
     @Override
     public IntentionDescriptor getDescriptor() {
       return ToggleReview_Intention.this;
     }
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept CodeReview$qv = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink changes$sLsw = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
   }
 }

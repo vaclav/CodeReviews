@@ -4,6 +4,7 @@ package CodeReviewPlugin.plugin;
 
 import jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin;
 import com.intellij.openapi.extensions.PluginId;
+import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.ide.actions.View_ActionGroup;
 import java.util.List;
 import jetbrains.mps.plugins.actions.BaseKeymapChanges;
@@ -11,18 +12,22 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
 public class CodeReviewPlugin_ApplicationPlugin extends BaseApplicationPlugin {
-  private PluginId myId = PluginId.getId("CodeReviewPlugin");
+  private final PluginId myId = PluginId.getId("CodeReviewPlugin");
+
   public CodeReviewPlugin_ApplicationPlugin() {
   }
+
+  @NotNull
   public PluginId getId() {
     return myId;
   }
+
   public void createGroups() {
     // actions w/o parameters 
     addAction(new HideCodeReviews_Action());
     addAction(new ShowCodeReviews_Action());
     // groups 
-    addGroup(new CodeReviewActions_ActionGroup());
+    addGroup(new CodeReviewActions_ActionGroup(this));
   }
   public void adjustRegularGroups() {
     insertGroupIntoAnother(CodeReviewActions_ActionGroup.ID, View_ActionGroup.ID, null);

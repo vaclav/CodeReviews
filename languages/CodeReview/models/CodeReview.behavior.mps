@@ -73,19 +73,18 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
       </concept>
       <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC" />
+      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
+        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
-      </concept>
-      <concept id="6973815483243445083" name="jetbrains.mps.lang.smodel.structure.EnumMemberValueRefExpression" flags="nn" index="3f7Wdw">
-        <reference id="6973815483243565416" name="member" index="3f7u_j" />
-        <reference id="6973815483243564601" name="enum" index="3f7vo2" />
-      </concept>
-      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
-        <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -98,6 +97,9 @@
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
+      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
+        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -129,12 +131,12 @@
                 <node concept="1yVyf7" id="7bsA$AwC$NU" role="2OqNvi" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwAQWR" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
-            <node concept="3t7uKx" id="7bsA$AwAV3n" role="2OqNvi">
-              <node concept="uoxfO" id="7bsA$AwAV3p" role="3t7uKA">
-                <ref role="uo_Cq" to="97lr:7bsA$Aw_yjK" />
+            <node concept="21noJN" id="7KqKbdW$Vsf" role="2OqNvi">
+              <node concept="21nZrQ" id="7KqKbdW$Vsg" role="21noJM">
+                <ref role="21nZrZ" to="97lr:7KqKbdW$VrK" resolve="In_Progress" />
               </node>
             </node>
           </node>
@@ -159,12 +161,12 @@
                 <node concept="1yVyf7" id="7bsA$AwC_eB" role="2OqNvi" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwC_eC" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
-            <node concept="3t7uKx" id="7bsA$AwC_eD" role="2OqNvi">
-              <node concept="uoxfO" id="7bsA$AwC_eE" role="3t7uKA">
-                <ref role="uo_Cq" to="97lr:7bsA$Aw_yjL" />
+            <node concept="21noJN" id="7KqKbdW$Vsh" role="2OqNvi">
+              <node concept="21nZrQ" id="7KqKbdW$Vsi" role="21noJM">
+                <ref role="21nZrZ" to="97lr:7KqKbdW$VrL" resolve="For_Review" />
               </node>
             </node>
           </node>
@@ -189,12 +191,12 @@
                 <node concept="1yVyf7" id="7bsA$AwC_lo" role="2OqNvi" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwC_lp" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
-            <node concept="3t7uKx" id="7bsA$AwC_lq" role="2OqNvi">
-              <node concept="uoxfO" id="7bsA$AwC_lr" role="3t7uKA">
-                <ref role="uo_Cq" to="97lr:7bsA$Aw_yjO" />
+            <node concept="21noJN" id="7KqKbdW$Vsj" role="2OqNvi">
+              <node concept="21nZrQ" id="7KqKbdW$Vsk" role="21noJM">
+                <ref role="21nZrZ" to="97lr:7KqKbdW$VrM" resolve="Accepted" />
               </node>
             </node>
           </node>
@@ -219,12 +221,12 @@
                 <node concept="1yVyf7" id="7bsA$AwC_mk" role="2OqNvi" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwC_ml" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
-            <node concept="3t7uKx" id="7bsA$AwC_mm" role="2OqNvi">
-              <node concept="uoxfO" id="7bsA$AwC_mn" role="3t7uKA">
-                <ref role="uo_Cq" to="97lr:7bsA$Aw_yjS" />
+            <node concept="21noJN" id="7KqKbdW$Vsl" role="2OqNvi">
+              <node concept="21nZrQ" id="7KqKbdW$Vsm" role="21noJM">
+                <ref role="21nZrZ" to="97lr:7KqKbdW$VrN" resolve="Rejected" />
               </node>
             </node>
           </node>
@@ -334,16 +336,20 @@
         </node>
         <node concept="3clFbF" id="7bsA$AwBz1q" role="3cqZAp">
           <node concept="37vLTI" id="7bsA$AwCe_u" role="3clFbG">
-            <node concept="3f7Wdw" id="7bsA$AwCeG0" role="37vLTx">
-              <ref role="3f7vo2" to="97lr:7bsA$Aw_yjJ" resolve="ReviewStatus" />
-              <ref role="3f7u_j" to="97lr:7bsA$Aw_yjK" />
+            <node concept="2OqwBi" id="7KqKbdW$VsK" role="37vLTx">
+              <node concept="1XH99k" id="7KqKbdW$VsL" role="2Oq$k0">
+                <ref role="1XH99l" to="97lr:7KqKbdW$VrI" resolve="ReviewStatus" />
+              </node>
+              <node concept="2ViDtV" id="7KqKbdW$VsM" role="2OqNvi">
+                <ref role="2ViDtZ" to="97lr:7KqKbdW$VrK" resolve="In_Progress" />
+              </node>
             </node>
             <node concept="2OqwBi" id="7bsA$AwBEB5" role="37vLTJ">
               <node concept="37vLTw" id="7bsA$AwBDu2" role="2Oq$k0">
                 <ref role="3cqZAo" node="7bsA$AwBDtT" resolve="statusChange" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwBEIo" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
           </node>
@@ -382,16 +388,20 @@
         </node>
         <node concept="3clFbF" id="7bsA$AwCPmn" role="3cqZAp">
           <node concept="37vLTI" id="7bsA$AwCPmo" role="3clFbG">
-            <node concept="3f7Wdw" id="7bsA$AwCPmp" role="37vLTx">
-              <ref role="3f7vo2" to="97lr:7bsA$Aw_yjJ" resolve="ReviewStatus" />
-              <ref role="3f7u_j" to="97lr:7bsA$Aw_yjL" />
+            <node concept="2OqwBi" id="7KqKbdW$VsQ" role="37vLTx">
+              <node concept="1XH99k" id="7KqKbdW$VsR" role="2Oq$k0">
+                <ref role="1XH99l" to="97lr:7KqKbdW$VrI" resolve="ReviewStatus" />
+              </node>
+              <node concept="2ViDtV" id="7KqKbdW$VsS" role="2OqNvi">
+                <ref role="2ViDtZ" to="97lr:7KqKbdW$VrL" resolve="For_Review" />
+              </node>
             </node>
             <node concept="2OqwBi" id="7bsA$AwCPmq" role="37vLTJ">
               <node concept="37vLTw" id="7bsA$AwCPmr" role="2Oq$k0">
                 <ref role="3cqZAo" node="7bsA$AwCPmd" resolve="statusChange" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwCPms" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
           </node>
@@ -430,16 +440,20 @@
         </node>
         <node concept="3clFbF" id="7bsA$AwCPN0" role="3cqZAp">
           <node concept="37vLTI" id="7bsA$AwCPN1" role="3clFbG">
-            <node concept="3f7Wdw" id="7bsA$AwCPN2" role="37vLTx">
-              <ref role="3f7vo2" to="97lr:7bsA$Aw_yjJ" resolve="ReviewStatus" />
-              <ref role="3f7u_j" to="97lr:7bsA$Aw_yjO" />
+            <node concept="2OqwBi" id="7KqKbdW$VsW" role="37vLTx">
+              <node concept="1XH99k" id="7KqKbdW$VsX" role="2Oq$k0">
+                <ref role="1XH99l" to="97lr:7KqKbdW$VrI" resolve="ReviewStatus" />
+              </node>
+              <node concept="2ViDtV" id="7KqKbdW$VsY" role="2OqNvi">
+                <ref role="2ViDtZ" to="97lr:7KqKbdW$VrM" resolve="Accepted" />
+              </node>
             </node>
             <node concept="2OqwBi" id="7bsA$AwCPN3" role="37vLTJ">
               <node concept="37vLTw" id="7bsA$AwCPN4" role="2Oq$k0">
                 <ref role="3cqZAo" node="7bsA$AwCPMQ" resolve="statusChange" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwCPN5" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
           </node>
@@ -478,16 +492,20 @@
         </node>
         <node concept="3clFbF" id="7bsA$AwCPPg" role="3cqZAp">
           <node concept="37vLTI" id="7bsA$AwCPPh" role="3clFbG">
-            <node concept="3f7Wdw" id="7bsA$AwCPPi" role="37vLTx">
-              <ref role="3f7vo2" to="97lr:7bsA$Aw_yjJ" resolve="ReviewStatus" />
-              <ref role="3f7u_j" to="97lr:7bsA$Aw_yjS" />
+            <node concept="2OqwBi" id="7KqKbdW$Vt2" role="37vLTx">
+              <node concept="1XH99k" id="7KqKbdW$Vt3" role="2Oq$k0">
+                <ref role="1XH99l" to="97lr:7KqKbdW$VrI" resolve="ReviewStatus" />
+              </node>
+              <node concept="2ViDtV" id="7KqKbdW$Vt4" role="2OqNvi">
+                <ref role="2ViDtZ" to="97lr:7KqKbdW$VrN" resolve="Rejected" />
+              </node>
             </node>
             <node concept="2OqwBi" id="7bsA$AwCPPj" role="37vLTJ">
               <node concept="37vLTw" id="7bsA$AwCPPk" role="2Oq$k0">
                 <ref role="3cqZAo" node="7bsA$AwCPP6" resolve="statusChange" />
               </node>
               <node concept="3TrcHB" id="7bsA$AwCPPl" role="2OqNvi">
-                <ref role="3TsBF5" to="97lr:7bsA$Aw_yjX" resolve="status" />
+                <ref role="3TsBF5" to="97lr:7KqKbdW$Vs3" resolve="status" />
               </node>
             </node>
           </node>

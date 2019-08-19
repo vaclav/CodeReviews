@@ -81,7 +81,7 @@
       <node id="8276659856217613550" at="72,157,73,34" concept="1" />
       <node id="8276659856217613550" at="73,34,74,97" concept="1" />
       <node id="8276659856217613550" at="74,97,75,17" concept="1" />
-      <node id="8276659856217613565" at="75,17,76,177" concept="1" />
+      <node id="8942671887219275523" at="75,17,76,177" concept="1" />
       <node id="8276659856217613613" at="76,177,77,112" concept="1" />
       <node id="8276659856217613567" at="77,112,78,200" concept="1" />
       <node id="8276659856217613550" at="78,200,79,22" concept="6" />
@@ -93,46 +93,60 @@
       <scope id="8276659856217613550" at="71,0,81,0" />
     </file>
   </root>
-  <root nodeRef="r:ec5757ac-2df5-4581-8b80-8695121b0b07(CodeReview.structure)/8276659856217613551">
+  <root nodeRef="r:ec5757ac-2df5-4581-8b80-8695121b0b07(CodeReview.structure)/8942671887219275502">
     <file name="EnumerationDescriptor_ReviewStatus.java">
-      <node id="8276659856217613551" at="15,47,16,197" concept="9" />
-      <node id="8276659856217613552" at="19,0,20,0" concept="2" trace="VALUE_InProgress_0" />
-      <node id="8276659856217613553" at="20,0,21,0" concept="2" trace="VALUE_ForReview_0" />
-      <node id="8276659856217613556" at="21,0,22,0" concept="2" trace="VALUE_Accepted_0" />
-      <node id="8276659856217613560" at="22,0,23,0" concept="2" trace="VALUE_Rejected_0" />
-      <node id="8276659856217613551" at="26,62,27,30" concept="6" />
-      <node id="8276659856217613551" at="32,74,33,100" concept="6" />
-      <node id="8276659856217613551" at="39,25,40,18" concept="6" />
-      <node id="8276659856217613552" at="43,25,44,34" concept="6" />
-      <node id="8276659856217613553" at="45,24,46,33" concept="6" />
-      <node id="8276659856217613556" at="47,22,48,32" concept="6" />
-      <node id="8276659856217613560" at="49,22,50,32" concept="6" />
-      <node id="8276659856217613551" at="51,5,52,16" concept="6" />
-      <node id="8276659856217613551" at="15,0,18,0" concept="0" trace="EnumerationDescriptor_ReviewStatus#()V" />
-      <node id="8276659856217613551" at="38,84,41,5" concept="3" />
-      <node id="8276659856217613551" at="24,0,29,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
-      <node id="8276659856217613551" at="30,0,35,0" concept="4" trace="getMembers#()Ljava/util/Collection;" />
-      <node id="8276659856217613551" at="41,5,51,5" concept="10" />
-      <node id="8276659856217613551" at="36,0,54,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
-      <scope id="8276659856217613551" at="15,47,16,197" />
-      <scope id="8276659856217613551" at="26,62,27,30" />
-      <scope id="8276659856217613551" at="32,74,33,100" />
-      <scope id="8276659856217613551" at="39,25,40,18" />
-      <scope id="8276659856217613552" at="43,25,44,34" />
-      <scope id="8276659856217613553" at="45,24,46,33" />
-      <scope id="8276659856217613556" at="47,22,48,32" />
-      <scope id="8276659856217613560" at="49,22,50,32" />
-      <scope id="8276659856217613551" at="15,0,18,0" />
-      <scope id="8276659856217613551" at="24,0,29,0" />
-      <scope id="8276659856217613551" at="30,0,35,0" />
-      <scope id="8276659856217613551" at="38,84,52,16" />
-      <scope id="8276659856217613551" at="36,0,54,0">
-        <var name="string" id="8276659856217613551" />
+      <node id="8942671887219275502" at="15,47,16,197" concept="9" />
+      <node id="8942671887219275504" at="19,0,20,0" concept="2" trace="myMember_In_Progress_0" />
+      <node id="8942671887219275505" at="20,0,21,0" concept="2" trace="myMember_For_Review_0" />
+      <node id="8942671887219275506" at="21,0,22,0" concept="2" trace="myMember_Accepted_0" />
+      <node id="8942671887219275507" at="22,0,23,0" concept="2" trace="myMember_Rejected_0" />
+      <node id="8942671887219275502" at="24,0,25,0" concept="2" trace="myIndex" />
+      <node id="8942671887219275502" at="25,0,26,0" concept="2" trace="myMembers" />
+      <node id="8942671887219275502" at="29,62,30,34" concept="6" />
+      <node id="8942671887219275502" at="35,68,36,21" concept="6" />
+      <node id="8942671887219275502" at="42,29,43,18" concept="6" />
+      <node id="8942671887219275504" at="46,25,47,38" concept="6" />
+      <node id="8942671887219275505" at="48,24,49,37" concept="6" />
+      <node id="8942671887219275506" at="50,22,51,35" concept="6" />
+      <node id="8942671887219275507" at="52,22,53,35" concept="6" />
+      <node id="8942671887219275502" at="54,5,55,16" concept="6" />
+      <node id="8942671887219275502" at="60,73,61,39" concept="5" />
+      <node id="8942671887219275502" at="62,22,63,18" concept="6" />
+      <node id="8942671887219275502" at="64,5,65,32" concept="6" />
+      <node id="8942671887219275502" at="15,0,18,0" concept="0" trace="EnumerationDescriptor_ReviewStatus#()V" />
+      <node id="8942671887219275502" at="41,88,44,5" concept="3" />
+      <node id="8942671887219275502" at="61,39,64,5" concept="3" />
+      <node id="8942671887219275502" at="27,0,32,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="8942671887219275502" at="33,0,38,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="8942671887219275502" at="58,0,67,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="8942671887219275502" at="44,5,54,5" concept="10" />
+      <node id="8942671887219275502" at="39,0,57,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="8942671887219275502" at="15,47,16,197" />
+      <scope id="8942671887219275502" at="29,62,30,34" />
+      <scope id="8942671887219275502" at="35,68,36,21" />
+      <scope id="8942671887219275502" at="42,29,43,18" />
+      <scope id="8942671887219275504" at="46,25,47,38" />
+      <scope id="8942671887219275505" at="48,24,49,37" />
+      <scope id="8942671887219275506" at="50,22,51,35" />
+      <scope id="8942671887219275507" at="52,22,53,35" />
+      <scope id="8942671887219275502" at="62,22,63,18" />
+      <scope id="8942671887219275502" at="15,0,18,0" />
+      <scope id="8942671887219275502" at="27,0,32,0" />
+      <scope id="8942671887219275502" at="33,0,38,0" />
+      <scope id="8942671887219275502" at="60,73,65,32">
+        <var name="index" id="8942671887219275502" />
       </scope>
-      <unit id="8276659856217613551" at="13,0,55,0" name="CodeReview.structure.EnumerationDescriptor_ReviewStatus" />
+      <scope id="8942671887219275502" at="58,0,67,0">
+        <var name="idValue" id="8942671887219275502" />
+      </scope>
+      <scope id="8942671887219275502" at="41,88,55,16" />
+      <scope id="8942671887219275502" at="39,0,57,0">
+        <var name="memberName" id="8942671887219275502" />
+      </scope>
+      <unit id="8942671887219275502" at="13,0,68,0" name="CodeReview.structure.EnumerationDescriptor_ReviewStatus" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="8276659856217613551" at="21,0,22,0" concept="2" trace="myEnumerationReviewStatus" />
+      <node id="8942671887219275502" at="21,0,22,0" concept="2" trace="myEnumerationReviewStatus" />
     </file>
   </root>
 </debug-info>

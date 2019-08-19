@@ -5,8 +5,6 @@ package CodeReview.behavior;
 import jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.core.aspects.behaviour.api.BehaviorRegistry;
-import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
@@ -16,26 +14,29 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class CodeReview__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview");
-  private static final BehaviorRegistry REGISTRY = ConceptRegistry.getInstance().getBehaviorRegistry();
 
-  public static final SMethod<Boolean> isInProgress_id7bsA$AwCoXZ = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isInProgress").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCoXZ").registry(REGISTRY).build();
-  public static final SMethod<Boolean> isForReview_id7bsA$AwC_es = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isForReview").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwC_es").registry(REGISTRY).build();
-  public static final SMethod<Boolean> isAccepted_id7bsA$AwC_ld = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAccepted").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwC_ld").registry(REGISTRY).build();
-  public static final SMethod<Boolean> isRejected_id7bsA$AwC_m9 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isRejected").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwC_m9").registry(REGISTRY).build();
-  /*package*/ static final SMethod<Void> initializeStatusChange_id5ZQFUMN2olg = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("initializeStatusChange").modifiers(SModifiersImpl.create(0, AccessPrivileges.PRIVATE)).concept(CONCEPT).id("5ZQFUMN2olg").registry(REGISTRY).build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  public static final SMethod<Void> progress_id7bsA$AwCHXS = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("progress").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCHXS").registry(REGISTRY).build();
-  public static final SMethod<Void> forReview_id7bsA$AwCPm8 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("forReview").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCPm8").registry(REGISTRY).build();
-  public static final SMethod<Void> accept_id7bsA$AwCPML = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("accept").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCPML").registry(REGISTRY).build();
-  public static final SMethod<Void> reject_id7bsA$AwCPP1 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("reject").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCPP1").registry(REGISTRY).build();
+  public static final SMethod<Boolean> isInProgress_id7bsA$AwCoXZ = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isInProgress").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCoXZ").build();
+  public static final SMethod<Boolean> isForReview_id7bsA$AwC_es = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isForReview").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwC_es").build();
+  public static final SMethod<Boolean> isAccepted_id7bsA$AwC_ld = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isAccepted").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwC_ld").build();
+  public static final SMethod<Boolean> isRejected_id7bsA$AwC_m9 = new SMethodBuilder<Boolean>(new SJavaCompoundTypeImpl(Boolean.TYPE)).name("isRejected").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwC_m9").build();
+  /*package*/ static final SMethod<Void> initializeStatusChange_id5ZQFUMN2olg = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("initializeStatusChange").modifiers(SModifiersImpl.create(0, AccessPrivileges.PRIVATE)).concept(CONCEPT).id("5ZQFUMN2olg").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
+  public static final SMethod<Void> progress_id7bsA$AwCHXS = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("progress").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCHXS").build();
+  public static final SMethod<Void> forReview_id7bsA$AwCPm8 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("forReview").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCPm8").build();
+  public static final SMethod<Void> accept_id7bsA$AwCPML = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("accept").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCPML").build();
+  public static final SMethod<Void> reject_id7bsA$AwCPP1 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("reject").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("7bsA$AwCPP1").build();
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(isInProgress_id7bsA$AwCoXZ, isForReview_id7bsA$AwC_es, isAccepted_id7bsA$AwC_ld, isRejected_id7bsA$AwC_m9, initializeStatusChange_id5ZQFUMN2olg, progress_id7bsA$AwCHXS, forReview_id7bsA$AwCPm8, accept_id7bsA$AwCPML, reject_id7bsA$AwCPP1);
 
@@ -43,46 +44,45 @@ public final class CodeReview__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static boolean isInProgress_id7bsA$AwCoXZ(@NotNull SNode __thisNode__) {
-    return SPropertyOperations.hasEnumValue(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last(), MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "In Progress");
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f0L);
   }
   /*package*/ static boolean isForReview_id7bsA$AwC_es(@NotNull SNode __thisNode__) {
-    return SPropertyOperations.hasEnumValue(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last(), MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "For Review");
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f1L);
   }
   /*package*/ static boolean isAccepted_id7bsA$AwC_ld(@NotNull SNode __thisNode__) {
-    return SPropertyOperations.hasEnumValue(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last(), MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "Accepted");
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f4L);
   }
   /*package*/ static boolean isRejected_id7bsA$AwC_m9(@NotNull SNode __thisNode__) {
-    return SPropertyOperations.hasEnumValue(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last(), MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "Rejected");
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f8L);
   }
   /*package*/ static void initializeStatusChange_id5ZQFUMN2olg(@NotNull SNode __thisNode__, SNode statusChange) {
-    SPropertyOperations.assign(statusChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a096252dL, "author"), "");
-    SNode t = SLinkOperations.setNewChild(statusChange, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624ffL, "comment"), null);
-    SNode l = SLinkOperations.addNewChild(t, MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines"), null);
-    SLinkOperations.addNewChild(l, MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements"), MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word"));
+    SPropertyOperations.assign(statusChange, PROPS.author$Z41T, "");
+    SNode t = SLinkOperations.setNewChild(statusChange, LINKS.comment$YXXr, null);
+    SNode l = SLinkOperations.addNewChild(t, LINKS.lines$$cru, null);
+    SLinkOperations.addNewChild(l, LINKS.elements$eRew, CONCEPTS.Word$AM);
   }
   /*package*/ static void progress_id7bsA$AwCHXS(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"), null);
-    SPropertyOperations.assign(statusChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "In Progress");
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f0L, "In_Progress"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
   /*package*/ static void forReview_id7bsA$AwCPm8(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"), null);
-    SPropertyOperations.assign(statusChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "For Review");
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f1L, "For_Review"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
   /*package*/ static void accept_id7bsA$AwCPML(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"), null);
-    SPropertyOperations.assign(statusChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "Accepted");
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f4L, "Accepted"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
   /*package*/ static void reject_id7bsA$AwCPP1(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"), null);
-    SPropertyOperations.assign(statusChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "Rejected");
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f8L, "Rejected"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
 
   /*package*/ CodeReview__BehaviorDescriptor() {
-    super(REGISTRY);
   }
 
   @Override
@@ -147,5 +147,21 @@ public final class CodeReview__BehaviorDescriptor extends BaseBHDescriptor {
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink changes$sLsw = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
+    /*package*/ static final SContainmentLink comment$YXXr = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624ffL, "comment");
+    /*package*/ static final SContainmentLink lines$$cru = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines");
+    /*package*/ static final SContainmentLink elements$eRew = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty status$YXWt = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status");
+    /*package*/ static final SProperty author$Z41T = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a096252dL, "author");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Word$AM = MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word");
   }
 }

@@ -21,7 +21,7 @@ import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import java.awt.Color;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SEnumOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -29,6 +29,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
 import org.apache.log4j.Level;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
@@ -42,6 +43,8 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class CodeReview_ShowCodeReview_EditorBuilder_a extends AbstractEditorBuilder {
   private static final Logger LOG = LogManager.getLogger(CodeReview_ShowCodeReview_EditorBuilder_a.class);
@@ -90,14 +93,14 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     return editorCell;
   }
   private Color _StyleParameter_QueryFunction_xjt8q0_a0a0a() {
-    SNode lastChange = ListSequence.fromList(SLinkOperations.getChildren(getNode(), MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last();
+    SNode lastChange = ListSequence.fromList(SLinkOperations.getChildren(getNode(), LINKS.changes$sLsw)).last();
     if ((lastChange == null)) {
       return null;
-    } else if (SPropertyOperations.hasEnumValue(lastChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "In Progress")) {
+    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$YXWt), 0x72dc9a49a09624f0L)) {
       return Color.lightGray;
-    } else if (SPropertyOperations.hasEnumValue(lastChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "For Review")) {
+    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$YXWt), 0x72dc9a49a09624f1L)) {
       return Color.yellow;
-    } else if (SPropertyOperations.hasEnumValue(lastChange, MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"), "Accepted")) {
+    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$YXWt), 0x72dc9a49a09624f4L)) {
       return Color.green;
     } else {
       return Color.red;
@@ -133,9 +136,9 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
   private EditorCell createReadOnlyModelAccessor_0() {
     EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new ModelAccessor() {
       public String getText() {
-        String status = SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(myNode, MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes"))).last(), MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status"));
+        String status = SEnumOperations.getMemberPresentation(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.changes$sLsw)).last(), PROPS.status$YXWt));
         LoggingRuntime.logMsgView(Level.ERROR, "BBBBBBBB1 " + status, CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null);
-        status = (status == null ? "In Progress" : status);
+        status = (status == null ? SEnumOperations.getMemberPresentation(SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f0L, "In_Progress")) : status);
         LoggingRuntime.logMsgView(Level.ERROR, "BBBBBBBB2 " + status, CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null);
         return status;
       }
@@ -171,7 +174,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new CodeReview_ShowCodeReview_EditorBuilder_a.changesListHandler_xjt8q0_b1b0a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new changesListHandler_xjt8q0_b1b0a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_changes");
     Style style = new StyleImpl();
@@ -194,10 +197,10 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
+      return LINKS.changes$sLsw;
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, "CodeReview.structure.StatusChange");
+      return CONCEPTS.StatusChange$K9;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -207,7 +210,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(changesListHandler_xjt8q0_b1b0a.this.getNode(), MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(changesListHandler_xjt8q0_b1b0a.this.getNode(), LINKS.changes$sLsw));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -230,5 +233,17 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
         }
       }
     }
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink changes$sLsw = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty status$YXWt = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept StatusChange$K9 = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, "CodeReview.structure.StatusChange");
   }
 }

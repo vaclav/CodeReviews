@@ -147,7 +147,7 @@
       </node>
       <node concept="3_J27D" id="57Ex__MkhBq" role="m$_w8">
         <node concept="3Mxwew" id="57Ex__MkhBr" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="2019.2" />
         </node>
       </node>
       <node concept="m$f5U" id="57Ex__MkhBs" role="m$_yh">

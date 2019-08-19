@@ -2,6 +2,8 @@
 <dependenciesRoot>
   <dependency className="CodeReviewPlugin.plugin.CodeReviewActions_ActionGroup">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.workbench.action.ApplicationPlugin" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode extendsClassName="jetbrains.mps.plugins.actions.GeneratedActionGroup" />
   </dependency>
   <dependency className="CodeReviewPlugin.plugin.CodeReviewKeys_KeymapChanges">
@@ -24,6 +26,7 @@
     <classNode dependClassName="jetbrains.mps.ide.actions.View_ActionGroup" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.plugins.actions.BaseKeymapChanges" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode extendsClassName="jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin" />
   </dependency>
   <dependency className="CodeReviewPlugin.plugin.HideCodeReviews_Action">

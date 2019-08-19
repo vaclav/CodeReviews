@@ -17,35 +17,35 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350061718">
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350061718" at="14,0,15,0" concept="3" trace="myId" />
-      <node id="5902677980350061718" at="17,27,18,16" concept="9" />
-      <node id="5902677980350061718" at="20,30,21,30" concept="10" />
-      <node id="5902677980350061718" at="23,44,24,14" concept="10" />
-      <node id="5902677980350061718" at="30,48,31,92" concept="8" />
-      <node id="5902677980350061718" at="34,70,35,15" concept="9" />
-      <node id="5902677980350061718" at="15,0,17,0" concept="1" trace="CodeReviewPlugin_ApplicationPlugin#()V" />
-      <node id="5902677980350061718" at="17,0,20,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
-      <node id="5902677980350061718" at="27,0,30,0" concept="7" trace="adjustRegularGroups#()V" />
-      <node id="5902677980350061718" at="20,0,27,0" concept="7" trace="createGroups#()V" />
-      <node id="5902677980350061718" at="30,0,37,0" concept="7" trace="initKeymaps#()Ljava/util/List;" />
-      <scope id="5902677980350061718" at="15,47,15,47" />
-      <scope id="5902677980350061718" at="17,27,18,16" />
-      <scope id="5902677980350061718" at="27,37,28,88" />
-      <scope id="5902677980350061718" at="15,0,17,0" />
-      <scope id="5902677980350061718" at="17,0,20,0" />
-      <scope id="5902677980350061718" at="27,0,30,0" />
-      <scope id="5902677980350061718" at="20,30,25,50" />
-      <scope id="5902677980350061718" at="30,48,35,15">
+      <node id="5902677980350061718" at="15,0,16,0" concept="3" trace="myId" />
+      <node id="5902677980350061718" at="21,27,22,16" concept="9" />
+      <node id="5902677980350061718" at="25,30,26,30" concept="10" />
+      <node id="5902677980350061718" at="28,44,29,14" concept="10" />
+      <node id="5902677980350061718" at="35,48,36,92" concept="8" />
+      <node id="5902677980350061718" at="39,70,40,15" concept="9" />
+      <node id="5902677980350061718" at="17,0,19,0" concept="1" trace="CodeReviewPlugin_ApplicationPlugin#()V" />
+      <node id="5902677980350061718" at="32,0,35,0" concept="7" trace="adjustRegularGroups#()V" />
+      <node id="5902677980350061718" at="20,0,24,0" concept="7" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="5902677980350061718" at="25,0,32,0" concept="7" trace="createGroups#()V" />
+      <node id="5902677980350061718" at="35,0,42,0" concept="7" trace="initKeymaps#()Ljava/util/List;" />
+      <scope id="5902677980350061718" at="17,47,17,47" />
+      <scope id="5902677980350061718" at="21,27,22,16" />
+      <scope id="5902677980350061718" at="32,37,33,88" />
+      <scope id="5902677980350061718" at="17,0,19,0" />
+      <scope id="5902677980350061718" at="32,0,35,0" />
+      <scope id="5902677980350061718" at="20,0,24,0" />
+      <scope id="5902677980350061718" at="25,30,30,54" />
+      <scope id="5902677980350061718" at="35,48,40,15">
         <var name="res" id="5902677980350061718" />
       </scope>
-      <scope id="5902677980350061718" at="20,0,27,0" />
-      <scope id="5902677980350061718" at="30,0,37,0" />
-      <unit id="5902677980350061718" at="13,0,38,0" name="CodeReviewPlugin.plugin.CodeReviewPlugin_ApplicationPlugin" />
+      <scope id="5902677980350061718" at="25,0,32,0" />
+      <scope id="5902677980350061718" at="35,0,42,0" />
+      <unit id="5902677980350061718" at="14,0,43,0" name="CodeReviewPlugin.plugin.CodeReviewPlugin_ApplicationPlugin" />
     </file>
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350061836">
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350061836" at="22,44,23,44" concept="2" />
+      <node id="5902677980350061836" at="27,44,28,44" concept="2" />
     </file>
     <file name="ShowCodeReviews_Action.java">
       <node id="5902677980350061836" at="15,0,16,0" concept="12" trace="ICON" />
@@ -123,25 +123,27 @@
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350188107">
     <file name="CodeReviewActions_ActionGroup.java">
-      <node id="5902677980350188107" at="8,0,9,0" concept="12" trace="ID" />
-      <node id="5902677980350188107" at="9,42,10,35" concept="14" />
-      <node id="5902677980350188107" at="10,35,11,30" concept="2" />
-      <node id="5902677980350188107" at="11,30,12,25" concept="2" />
-      <node id="5902677980350188112" at="12,25,13,99" concept="2" />
-      <node id="5902677980350450219" at="13,99,14,99" concept="2" />
-      <node id="5902677980350188107" at="9,0,16,0" concept="1" trace="CodeReviewActions_ActionGroup#()V" />
-      <scope id="5902677980350188107" at="9,42,14,99" />
-      <scope id="5902677980350188107" at="9,0,16,0" />
-      <unit id="5902677980350188107" at="7,0,17,0" name="CodeReviewPlugin.plugin.CodeReviewActions_ActionGroup" />
+      <node id="5902677980350188107" at="10,0,11,0" concept="12" trace="ID" />
+      <node id="5902677980350188107" at="12,76,13,43" concept="14" />
+      <node id="5902677980350188107" at="13,43,14,25" concept="2" />
+      <node id="5902677980350188107" at="14,25,15,20" concept="2" />
+      <node id="5902677980350188112" at="15,20,16,99" concept="2" />
+      <node id="5902677980350450219" at="16,99,17,99" concept="2" />
+      <node id="5902677980350188107" at="12,0,19,0" concept="1" trace="CodeReviewActions_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="5902677980350188107" at="12,76,17,99" />
+      <scope id="5902677980350188107" at="12,0,19,0">
+        <var name="plugin" id="5902677980350188107" />
+      </scope>
+      <unit id="5902677980350188107" at="9,0,20,0" name="CodeReviewPlugin.plugin.CodeReviewActions_ActionGroup" />
     </file>
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350188107" at="24,14,25,50" concept="2" />
-      <node id="5902677980350188114" at="27,37,28,88" concept="2" />
+      <node id="5902677980350188107" at="29,14,30,54" concept="2" />
+      <node id="5902677980350188114" at="32,37,33,88" concept="2" />
     </file>
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350280812">
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350280812" at="21,30,22,44" concept="2" />
+      <node id="5902677980350280812" at="26,30,27,44" concept="2" />
     </file>
     <file name="HideCodeReviews_Action.java">
       <node id="5902677980350280812" at="15,0,16,0" concept="12" trace="ICON" />
@@ -259,12 +261,12 @@
       <unit id="5902677980350520913" at="10,0,25,0" name="CodeReviewPlugin.plugin.CodeReviewKeys_KeymapChanges" />
     </file>
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350520913" at="31,92,32,78" concept="2" />
+      <node id="5902677980350520913" at="36,92,37,78" concept="2" />
     </file>
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350526746">
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350526746" at="33,73,34,70" concept="2" />
+      <node id="5902677980350526746" at="38,73,39,70" concept="2" />
     </file>
     <file name="MacOSX_KeymapChanges.java">
       <node id="5902677980350526746" at="11,33,12,14" concept="10" />
@@ -291,7 +293,7 @@
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350526749">
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
-      <node id="5902677980350526749" at="32,78,33,73" concept="2" />
+      <node id="5902677980350526749" at="37,78,38,73" concept="2" />
     </file>
     <file name="MacOSX105_KeymapChanges.java">
       <node id="5902677980350526749" at="11,36,12,14" concept="10" />

@@ -4,6 +4,7 @@ package CodeReviewPlugin.plugin;
 
 import jetbrains.mps.workbench.action.BaseAction;
 import javax.swing.Icon;
+import jetbrains.mps.workbench.action.ActionAccess;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
 import jetbrains.mps.openapi.editor.update.Updater;
@@ -17,7 +18,7 @@ public class HideCodeReviews_Action extends BaseAction {
   public HideCodeReviews_Action() {
     super("Hide Code Reviews", "Changes the projection to make code reviews invisible", ICON);
     this.setIsAlwaysVisible(false);
-    this.setExecuteOutsideCommand(false);
+    this.setActionAccess(ActionAccess.UNDO_PROJECT);
   }
   @Override
   public boolean isDumbAware() {

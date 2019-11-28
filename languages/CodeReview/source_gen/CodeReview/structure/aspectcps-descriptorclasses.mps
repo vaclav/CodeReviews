@@ -1811,7 +1811,7 @@
           <node concept="2$VJBW" id="9K" role="385v07">
             <property role="2$VJBR" value="8942671887219275502" />
             <node concept="2x4n5u" id="9L" role="3iCydw">
-              <property role="2x4mPI" value="EnumerationDeclartaion" />
+              <property role="2x4mPI" value="EnumerationDeclaration" />
               <property role="2x4n5l" value="pfrb7wh3p84f" />
               <node concept="2V$Bhx" id="9M" role="2x4n5j">
                 <property role="2V$B1T" value="c72da2b9-7cce-4447-8389-f407dc1158b7" />

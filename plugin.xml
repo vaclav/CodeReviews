@@ -3,9 +3,9 @@
   <name>CodeReviews</name>
   <category>Custom Languages</category>
   <description>MPS code review support</description>
-  <version>2019.2</version>
+  <version>2019.3</version>
   <vendor url="https://github.com/vaclav/CodeReviews" logo="/MPS_16.png">Vaclav Pech</vendor>
-  <idea-version since-build="192.1" until-build="193.1"/>
+  <idea-version since-build="193.1" until-build="201.1"/>
 
   <depends>jetbrains.mps.core</depends>
 

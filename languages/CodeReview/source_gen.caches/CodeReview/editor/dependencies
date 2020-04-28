@@ -33,6 +33,7 @@
   </dependency>
   <dependency className="CodeReview.editor.CodeReview_ShowCodeReview_EditorBuilder_a">
     <classNode dependClassName="java.awt.Color" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime" />

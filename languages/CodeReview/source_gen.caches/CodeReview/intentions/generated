@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-8mrgr82dyqaa9tu9lrveven5hiw1029">
+<product version="3" modelHash="-45nzyumj2dm55iib5w5swlzbemmy9qr">
   <files names="Accept_Intention.java:ForReview_Intention.java:InProgress_Intention.java:IntentionsDescriptor.java:Reject_Intention.java:ToggleReview_Intention.java" />
 </product>
 

@@ -3,6 +3,7 @@
   <persistence version="9" />
   <attribute name="checkpoint" value="DescriptorClasses" />
   <attribute name="generation-plan" value="AspectCPS" />
+  <attribute name="user-objects" value="true" />
   <languages />
   <imports>
     <import index="eyev" ref="r:2cdb0e81-1ce8-4b44-b922-f03f89b5de4d(CodeReview.typesystem)" />

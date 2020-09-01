@@ -44,41 +44,41 @@ public final class CodeReview__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static boolean isInProgress_id7bsA$AwCoXZ(@NotNull SNode __thisNode__) {
-    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f0L);
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$WUF3)).last(), PROPS.status$wY9A), 0x72dc9a49a09624f0L);
   }
   /*package*/ static boolean isForReview_id7bsA$AwC_es(@NotNull SNode __thisNode__) {
-    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f1L);
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$WUF3)).last(), PROPS.status$wY9A), 0x72dc9a49a09624f1L);
   }
   /*package*/ static boolean isAccepted_id7bsA$AwC_ld(@NotNull SNode __thisNode__) {
-    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f4L);
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$WUF3)).last(), PROPS.status$wY9A), 0x72dc9a49a09624f4L);
   }
   /*package*/ static boolean isRejected_id7bsA$AwC_m9(@NotNull SNode __thisNode__) {
-    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$sLsw)).last(), PROPS.status$YXWt), 0x72dc9a49a09624f8L);
+    return SEnumOperations.isMember(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.changes$WUF3)).last(), PROPS.status$wY9A), 0x72dc9a49a09624f8L);
   }
   /*package*/ static void initializeStatusChange_id5ZQFUMN2olg(@NotNull SNode __thisNode__, SNode statusChange) {
-    SPropertyOperations.assign(statusChange, PROPS.author$Z41T, "");
-    SNode t = SLinkOperations.setNewChild(statusChange, LINKS.comment$YXXr, null);
-    SNode l = SLinkOperations.addNewChild(t, LINKS.lines$$cru, null);
-    SLinkOperations.addNewChild(l, LINKS.elements$eRew, CONCEPTS.Word$AM);
+    SPropertyOperations.assign(statusChange, PROPS.author$zUMa, "");
+    SNode t = SLinkOperations.setNewChild(statusChange, LINKS.comment$wYBC, null);
+    SNode l = SLinkOperations.addNewChild(t, LINKS.lines$U$m7, null);
+    SLinkOperations.addNewChild(l, LINKS.elements$_j45, CONCEPTS.Word$Dn);
   }
   /*package*/ static void progress_id7bsA$AwCHXS(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
-    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f0L, "In_Progress"));
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$WUF3, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$wY9A, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f0L, "In_Progress"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
   /*package*/ static void forReview_id7bsA$AwCPm8(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
-    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f1L, "For_Review"));
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$WUF3, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$wY9A, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f1L, "For_Review"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
   /*package*/ static void accept_id7bsA$AwCPML(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
-    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f4L, "Accepted"));
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$WUF3, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$wY9A, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f4L, "Accepted"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
   /*package*/ static void reject_id7bsA$AwCPP1(@NotNull SNode __thisNode__) {
-    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$sLsw, null);
-    SPropertyOperations.assignEnum(statusChange, PROPS.status$YXWt, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f8L, "Rejected"));
+    SNode statusChange = SLinkOperations.addNewChild(__thisNode__, LINKS.changes$WUF3, null);
+    SPropertyOperations.assignEnum(statusChange, PROPS.status$wY9A, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f8L, "Rejected"));
     CodeReview__BehaviorDescriptor.initializeStatusChange_id5ZQFUMN2olg.invoke(__thisNode__, statusChange);
   }
 
@@ -150,18 +150,18 @@ public final class CodeReview__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink changes$sLsw = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
-    /*package*/ static final SContainmentLink comment$YXXr = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624ffL, "comment");
-    /*package*/ static final SContainmentLink lines$$cru = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines");
-    /*package*/ static final SContainmentLink elements$eRew = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements");
+    /*package*/ static final SContainmentLink changes$WUF3 = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
+    /*package*/ static final SContainmentLink comment$wYBC = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624ffL, "comment");
+    /*package*/ static final SContainmentLink lines$U$m7 = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines");
+    /*package*/ static final SContainmentLink elements$_j45 = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty status$YXWt = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status");
-    /*package*/ static final SProperty author$Z41T = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a096252dL, "author");
+    /*package*/ static final SProperty status$wY9A = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status");
+    /*package*/ static final SProperty author$zUMa = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a096252dL, "author");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Word$AM = MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word");
+    /*package*/ static final SConcept Word$Dn = MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word");
   }
 }

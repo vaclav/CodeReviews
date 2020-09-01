@@ -43,7 +43,7 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, CONCEPTS.CodeReview$qv, true)).isEmpty();
+    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, CONCEPTS.CodeReview$i2, true)).isEmpty();
   }
   @Override
   public boolean isSurroundWith() {
@@ -60,19 +60,19 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)) == null) ? "Add Review" : "Remove Review");
+      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)) == null) ? "Add Review" : "Remove Review");
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)) == null)) {
-        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv), CONCEPTS.CodeReview$qv);
-        CodeReview__BehaviorDescriptor.progress_id7bsA$AwCHXS.invoke(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)));
+      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)) == null)) {
+        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2), CONCEPTS.CodeReview$i2);
+        CodeReview__BehaviorDescriptor.progress_id7bsA$AwCHXS.invoke(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)));
         Updater updater = editorContext.getEditorComponent().getUpdater();
         updater.setInitialEditorHints(new String[]{"CodeReview.editor.CodeReviewHints.ShowCodeReview"});
         updater.update();
-        SelectionUtil.selectCell(editorContext, ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv)), LINKS.changes$sLsw)).last(), SelectionManager.FIRST_EDITABLE_CELL);
+        SelectionUtil.selectCell(editorContext, ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)), LINKS.changes$WUF3)).last(), SelectionManager.FIRST_EDITABLE_CELL);
       } else {
-        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$qv), null);
+        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2), null);
       }
     }
     @Override
@@ -82,10 +82,10 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept CodeReview$qv = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview");
+    /*package*/ static final SConcept CodeReview$i2 = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, "CodeReview.structure.CodeReview");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink changes$sLsw = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
+    /*package*/ static final SContainmentLink changes$WUF3 = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
   }
 }

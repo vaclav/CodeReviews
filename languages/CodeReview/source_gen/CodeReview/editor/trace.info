@@ -194,9 +194,9 @@
       <node id="8276659856217582585" at="235,34,236,69" concept="2" />
       <node id="8276659856217582585" at="236,69,237,146" concept="2" />
       <node id="8276659856217582585" at="241,34,242,91" concept="2" />
-      <node id="8276659856217582585" at="249,0,250,0" concept="8" trace="changes$sLsw" />
-      <node id="8276659856217582585" at="253,0,254,0" concept="8" trace="status$YXWt" />
-      <node id="8276659856217582585" at="257,0,258,0" concept="8" trace="StatusChange$K9" />
+      <node id="8276659856217582585" at="249,0,250,0" concept="8" trace="changes$WUF3" />
+      <node id="8276659856217582585" at="253,0,254,0" concept="8" trace="status$wY9A" />
+      <node id="8276659856217582585" at="257,0,258,0" concept="8" trace="StatusChange$BG" />
       <node id="8276659856217582585" at="50,0,52,0" concept="3" trace="myNode" />
       <node id="8276659856217678947" at="104,10,106,5" concept="0" />
       <node id="8276659856217582585" at="181,0,183,0" concept="3" trace="myNode" />
@@ -432,10 +432,10 @@
       <node id="8276659856217613594" at="176,35,177,26" concept="7" />
       <node id="8276659856217613594" at="178,17,179,42" concept="2" />
       <node id="8276659856217613594" at="182,40,183,28" concept="7" />
-      <node id="8276659856217613594" at="188,0,189,0" concept="8" trace="status$YXWt" />
-      <node id="8276659856217613594" at="189,0,190,0" concept="8" trace="author$Z41T" />
-      <node id="8276659856217613594" at="193,0,194,0" concept="8" trace="PropertyAttribute$jT" />
-      <node id="8276659856217613594" at="197,0,198,0" concept="8" trace="comment$YXXr" />
+      <node id="8276659856217613594" at="188,0,189,0" concept="8" trace="status$wY9A" />
+      <node id="8276659856217613594" at="189,0,190,0" concept="8" trace="author$zUMa" />
+      <node id="8276659856217613594" at="193,0,194,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="8276659856217613594" at="197,0,198,0" concept="8" trace="comment$wYBC" />
       <node id="8276659856217613594" at="39,0,41,0" concept="3" trace="myNode" />
       <node id="8276659856217613594" at="136,0,138,0" concept="3" trace="myNode" />
       <node id="8276659856217613594" at="53,0,56,0" concept="5" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />

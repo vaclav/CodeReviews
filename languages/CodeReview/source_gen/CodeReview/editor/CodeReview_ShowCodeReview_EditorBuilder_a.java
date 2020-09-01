@@ -92,14 +92,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private Color _StyleParameter_QueryFunction_xjt8q0_a0a0a() {
-    SNode lastChange = ListSequence.fromList(SLinkOperations.getChildren(getNode(), LINKS.changes$sLsw)).last();
+    SNode lastChange = ListSequence.fromList(SLinkOperations.getChildren(getNode(), LINKS.changes$WUF3)).last();
     if ((lastChange == null)) {
       return null;
-    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$YXWt), 0x72dc9a49a09624f0L)) {
+    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$wY9A), 0x72dc9a49a09624f0L)) {
       return Color.lightGray;
-    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$YXWt), 0x72dc9a49a09624f1L)) {
+    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$wY9A), 0x72dc9a49a09624f1L)) {
       return Color.yellow;
-    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$YXWt), 0x72dc9a49a09624f4L)) {
+    } else if (SEnumOperations.isMember(SPropertyOperations.getEnum(lastChange, PROPS.status$wY9A), 0x72dc9a49a09624f4L)) {
       return Color.green;
     } else {
       return Color.red;
@@ -135,7 +135,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createReadOnlyModelAccessor_0() {
     EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new ModelAccessor.ReadOnly() {
       public String getText() {
-        String status = SEnumOperations.getMemberPresentation(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.changes$sLsw)).last(), PROPS.status$YXWt));
+        String status = SEnumOperations.getMemberPresentation(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.changes$WUF3)).last(), PROPS.status$wY9A));
         LoggingRuntime.logMsgView(Level.ERROR, "BBBBBBBB1 " + status, CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null);
         status = (status == null ? SEnumOperations.getMemberPresentation(SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f0L, "In_Progress")) : status);
         LoggingRuntime.logMsgView(Level.ERROR, "BBBBBBBB2 " + status, CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null);
@@ -191,10 +191,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.changes$sLsw;
+      return LINKS.changes$WUF3;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.StatusChange$K9;
+      return CONCEPTS.StatusChange$BG;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -204,7 +204,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(changesListHandler_xjt8q0_b1b0a.this.getNode(), LINKS.changes$sLsw));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(changesListHandler_xjt8q0_b1b0a.this.getNode(), LINKS.changes$WUF3));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -246,14 +246,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink changes$sLsw = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
+    /*package*/ static final SContainmentLink changes$WUF3 = MetaAdapterFactory.getContainmentLink(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL, 0x72dc9a49a0962551L, "changes");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty status$YXWt = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status");
+    /*package*/ static final SProperty status$wY9A = MetaAdapterFactory.getProperty(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, 0x72dc9a49a09624fdL, "status");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept StatusChange$K9 = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, "CodeReview.structure.StatusChange");
+    /*package*/ static final SConcept StatusChange$BG = MetaAdapterFactory.getConcept(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL, "CodeReview.structure.StatusChange");
   }
 }

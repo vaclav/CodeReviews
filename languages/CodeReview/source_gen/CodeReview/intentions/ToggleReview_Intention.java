@@ -14,7 +14,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import CodeReview.behavior.CodeReview__BehaviorDescriptor;
 import jetbrains.mps.openapi.editor.update.Updater;
@@ -60,19 +59,19 @@ public final class ToggleReview_Intention extends AbstractIntentionDescriptor im
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)) == null) ? "Add Review" : "Remove Review");
+      return ((new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2).get(node) == null) ? "Add Review" : "Remove Review");
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)) == null)) {
-        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2), CONCEPTS.CodeReview$i2);
-        CodeReview__BehaviorDescriptor.progress_id7bsA$AwCHXS.invoke(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)));
+      if ((new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2).get(node) == null)) {
+        new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2).setNew(node);
+        CodeReview__BehaviorDescriptor.progress_id7bsA$AwCHXS.invoke(new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2).get(node));
         Updater updater = editorContext.getEditorComponent().getUpdater();
         updater.setInitialEditorHints(new String[]{"CodeReview.editor.CodeReviewHints.ShowCodeReview"});
         updater.update();
-        SelectionUtil.selectCell(editorContext, ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2)), LINKS.changes$WUF3)).last(), SelectionManager.FIRST_EDITABLE_CELL);
+        SelectionUtil.selectCell(editorContext, ListSequence.fromList(SLinkOperations.getChildren(new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2).get(node), LINKS.changes$WUF3)).last(), SelectionManager.FIRST_EDITABLE_CELL);
       } else {
-        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2), null);
+        new IAttributeDescriptor.NodeAttribute(CONCEPTS.CodeReview$i2).set(node, null);
       }
     }
     @Override

@@ -9,11 +9,11 @@ import javax.swing.KeyStroke;
 
 public class CodeReviewKeys_KeymapChanges extends BaseKeymapChanges {
   public CodeReviewKeys_KeymapChanges() {
-    // simple 
+    // simple
     addSimpleShortcut("CodeReviewPlugin.plugin.HideCodeReviews_Action", getShortcut("ctrl alt shift C"));
     addSimpleShortcut("CodeReviewPlugin.plugin.ShowCodeReviews_Action", getShortcut("ctrl alt shift C"));
-    // simple parameterized 
-    // complex 
+    // simple parameterized
+    // complex
   }
   public String getScheme() {
     return "$default";

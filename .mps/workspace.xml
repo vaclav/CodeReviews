@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55158b2d-763d-44a2-95f7-2dd5e011e9ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b1b0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b1b0a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$commentSingleRoleHandler_qb4idh_e0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$commentSingleRoleHandler_qb4idh_e0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention$CONCEPTS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention$IntentionImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention$IntentionImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention$LINKS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/ToggleReview_Intention.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/CodeReviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/CodeReviews.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +34,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="34f0b9e5-a769-472b-b8ab-275f5d1b116d/r:0ccf0bf6-4eef-4300-a384-c59a211b1cd7(TempModule34f0b9e5-a769-472b-b8ab-275f5d1b116d/ConsoleModel_87546747328833)">
+            <model ref="c9f1059d-b5c3-44e9-be26-49ce688f0393/r:cf39c3ef-219e-4008-b1d4-9b51bac63e82(TempModulec9f1059d-b5c3-44e9-be26-49ce688f0393/ConsoleModel_570341375748996)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -71,11 +54,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2wnL1WJBgV8">
-                <node concept="3balQm" id="2wnL1WJBgV9" role="aymYE" />
-                <node concept="2Clz$F" id="2wnL1WJBgVa" role="aymYO" />
-                <node concept="2_V_lH" id="2wnL1WJBgVb" role="1PhJh3">
-                  <ref role="2_V_lI" node="2wnL1WJBgVa" resolve="CommandHolder" />
+              <node concept="aymSD" id="19XL_M3$BLe">
+                <node concept="3balQm" id="19XL_M3$BLf" role="aymYE" />
+                <node concept="2Clz$F" id="19XL_M3$BLg" role="aymYO" />
+                <node concept="2_V_lH" id="19XL_M3$BLh" role="1PhJh3">
+                  <ref role="2_V_lI" node="19XL_M3$BLg" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -340,12 +323,22 @@
           <PluginState />
         </value>
       </option>
+      <option name="jetbrains.mps.ide.devkit.editor.Editor_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
         <value>
           <PluginState />
         </value>
       </option>
       <option name="jetbrains.mps.lang.editor.tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.migration.workbench.plugin.Workbench_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -396,41 +389,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
-        <subPane />
-      </pane>
-      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -448,35 +411,54 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="CodeReviews" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeReviews" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeReviews" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeReviews" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="CodeReviews" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ad79e51b-9b1d-47e8-a3c8-dd8309b8276a(CodeReviews.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/CodeReviews/solutions/CodeReviews.build/models/CodeReviews.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5902677980350585274" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
+        <subPane />
+      </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
         <subPane />
       </pane>
       <pane id="Favorites" />
@@ -574,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598962015558</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update to MPS 2020.3">
+      <created>1609335200650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335200650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -600,28 +589,7 @@
     <MESSAGE value="Update to MPS 2019.2" />
     <MESSAGE value="Update to MPS 2020.1" />
     <MESSAGE value="Update to MPS 2020.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to MPS 2020.2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="417" y="107" key="CommitChangelistDialog2" timestamp="1598962015354">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="417" y="107" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1598962015354" />
-    <state width="1680" height="293" key="GridCell.Tab.0.bottom" timestamp="1598962702925">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="293" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598962702925" />
-    <state width="1680" height="293" key="GridCell.Tab.0.center" timestamp="1598962702925">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="293" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598962702925" />
-    <state width="1680" height="293" key="GridCell.Tab.0.left" timestamp="1598962702924">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="293" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598962702924" />
-    <state width="1680" height="293" key="GridCell.Tab.0.right" timestamp="1598962702925">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="293" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598962702925" />
+    <MESSAGE value="Update to MPS 2020.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to MPS 2020.3" />
   </component>
 </project>

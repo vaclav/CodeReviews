@@ -3,7 +3,7 @@
   <dependency className="CodeReviewPlugin.plugin.CodeReviewActions_ActionGroup">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.workbench.action.ApplicationPlugin" />
-    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode extendsClassName="jetbrains.mps.plugins.actions.GeneratedActionGroup" />
   </dependency>
   <dependency className="CodeReviewPlugin.plugin.CodeReviewKeys_KeymapChanges">

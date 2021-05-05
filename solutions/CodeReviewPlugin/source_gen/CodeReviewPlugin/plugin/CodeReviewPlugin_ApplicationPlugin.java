@@ -23,10 +23,10 @@ public class CodeReviewPlugin_ApplicationPlugin extends BaseApplicationPlugin {
   }
 
   public void createGroups() {
-    // actions w/o parameters 
+    // actions w/o parameters
     addAction(new HideCodeReviews_Action());
     addAction(new ShowCodeReviews_Action());
-    // groups 
+    // groups
     addGroup(new CodeReviewActions_ActionGroup(this));
   }
   public void adjustRegularGroups() {

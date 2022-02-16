@@ -62,9 +62,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForCodeReview() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CodeReview", "CodeReview", 0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a0951f1eL);
     b.class_(false, false, false);
-    b.super_("jetbrains.mps.lang.core.structure.NodeAttribute", 0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da54L);
+    // extends: jetbrains.mps.lang.core.structure.NodeAttribute
+    b.super_(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da54L);
     b.origin("r:ec5757ac-2df5-4581-8b80-8695121b0b07(CodeReview.structure)/8276659856217546526");
-    b.version(2);
+    b.version(3);
     b.aggregate("changes", 0x72dc9a49a0962551L).target(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL).optional(true).ordered(true).multiple(true).origin("8276659856217613649").done();
     return b.create();
   }
@@ -72,7 +73,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("CodeReview", "StatusChange", 0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624eeL);
     b.class_(false, false, false);
     b.origin("r:ec5757ac-2df5-4581-8b80-8695121b0b07(CodeReview.structure)/8276659856217613550");
-    b.version(2);
+    b.version(3);
     b.property("status", 0x72dc9a49a09624fdL).type(MetaIdFactory.dataTypeId(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL)).origin("8942671887219275523").done();
     b.property("author", 0x72dc9a49a096252dL).type(PrimitiveTypeId.STRING).origin("8276659856217613613").done();
     b.aggregate("comment", 0x72dc9a49a09624ffL).target(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L).optional(true).ordered(true).multiple(false).origin("8276659856217613567").done();

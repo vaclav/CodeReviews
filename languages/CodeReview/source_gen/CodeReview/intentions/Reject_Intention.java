@@ -10,34 +10,28 @@ import jetbrains.mps.openapi.intentions.Kind;
 import jetbrains.mps.smodel.SNodePointer;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
-import CodeReview.behavior.CodeReview__BehaviorDescriptor;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
+import CodeReview.behavior.CodeReview__BehaviorDescriptor;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
 
 public final class Reject_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
+
   public Reject_Intention() {
     super(Kind.NORMAL, false, new SNodePointer("r:4f5cc8c3-214f-4ccf-a6a5-cfea274fcfd0(CodeReview.intentions)", "8276659856218518216"));
   }
+
   @Override
   public String getPresentation() {
     return "Reject";
   }
-  @Override
-  public boolean isApplicable(final SNode node, final EditorContext editorContext) {
-    if (!(isApplicableToNode(node, editorContext))) {
-      return false;
-    }
-    return true;
-  }
-  private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return (boolean) CodeReview__BehaviorDescriptor.isForReview_id7bsA$AwC_es.invoke(node);
-  }
+
   @Override
   public boolean isSurroundWith() {
     return false;
   }
+
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new IntentionImplementation());
@@ -47,17 +41,34 @@ public final class Reject_Intention extends AbstractIntentionDescriptor implemen
   /*package*/ final class IntentionImplementation extends AbstractIntentionExecutable {
     public IntentionImplementation() {
     }
+
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Reject";
     }
+
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
       CodeReview__BehaviorDescriptor.reject_id7bsA$AwCPP1.invoke(node);
     }
+
+    @Override
+    public boolean isApplicable(final SNode node, final EditorContext editorContext) {
+      if (!(isApplicableToNode(node, editorContext))) {
+        return false;
+      }
+      return true;
+    }
+
+    private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
+      return (boolean) CodeReview__BehaviorDescriptor.isForReview_id7bsA$AwC_es.invoke(node);
+    }
+
+
     @Override
     public IntentionDescriptor getDescriptor() {
       return Reject_Intention.this;
     }
+
   }
 }

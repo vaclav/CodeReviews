@@ -2,7 +2,7 @@
 <model ref="r:31a9832c-16a0-45e2-9b88-ec76547d586c(CodeReview.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="e2ea39f1-cec3-4b83-84a0-632a18936de0(CodeReviewKit)" />
   </languages>

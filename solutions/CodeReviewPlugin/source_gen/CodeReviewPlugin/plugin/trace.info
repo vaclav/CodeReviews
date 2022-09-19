@@ -13,7 +13,6 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350061718">
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
@@ -49,7 +48,7 @@
     </file>
     <file name="ShowCodeReviews_Action.java">
       <node id="5902677980350061836" at="16,0,17,0" concept="12" trace="ICON" />
-      <node id="5902677980350061836" at="18,35,19,92" concept="14" />
+      <node id="5902677980350061836" at="18,35,19,92" concept="13" />
       <node id="5902677980350061836" at="19,92,20,35" concept="2" />
       <node id="5902677980350061836" at="20,35,21,52" concept="2" />
       <node id="5902677980350061836" at="24,32,25,16" concept="9" />
@@ -124,7 +123,7 @@
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350188107">
     <file name="CodeReviewActions_ActionGroup.java">
       <node id="5902677980350188107" at="10,0,11,0" concept="12" trace="ID" />
-      <node id="5902677980350188107" at="12,75,13,43" concept="14" />
+      <node id="5902677980350188107" at="12,75,13,43" concept="13" />
       <node id="5902677980350188107" at="13,43,14,25" concept="2" />
       <node id="5902677980350188107" at="14,25,15,20" concept="2" />
       <node id="5902677980350188112" at="15,20,16,99" concept="2" />
@@ -147,7 +146,7 @@
     </file>
     <file name="HideCodeReviews_Action.java">
       <node id="5902677980350280812" at="16,0,17,0" concept="12" trace="ICON" />
-      <node id="5902677980350280812" at="18,35,19,94" concept="14" />
+      <node id="5902677980350280812" at="18,35,19,94" concept="13" />
       <node id="5902677980350280812" at="19,94,20,35" concept="2" />
       <node id="5902677980350280812" at="20,35,21,52" concept="2" />
       <node id="5902677980350280812" at="24,32,25,16" concept="9" />
@@ -240,25 +239,16 @@
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350520913">
     <file name="CodeReviewKeys_KeymapChanges.java">
-      <node id="5902677980350520913" at="11,41,12,13" concept="10" />
-      <node id="5902677980350538803" at="12,13,13,105" concept="2" />
-      <node id="5902677980350520916" at="13,105,14,105" concept="2" />
-      <node id="5902677980350520913" at="14,105,15,27" concept="10" />
-      <node id="5902677980350520913" at="15,27,16,14" concept="10" />
-      <node id="5902677980350520913" at="18,29,19,22" concept="9" />
-      <node id="5902677980350520913" at="21,53,22,70" concept="9" />
-      <node id="5902677980350520913" at="18,0,21,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
-      <node id="5902677980350520913" at="21,0,24,0" concept="13" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
-      <node id="5902677980350520913" at="11,0,18,0" concept="1" trace="CodeReviewKeys_KeymapChanges#()V" />
-      <scope id="5902677980350520913" at="18,29,19,22" />
-      <scope id="5902677980350520913" at="21,53,22,70" />
-      <scope id="5902677980350520913" at="18,0,21,0" />
-      <scope id="5902677980350520913" at="21,0,24,0">
-        <var name="stroke" id="5902677980350520913" />
-      </scope>
-      <scope id="5902677980350520913" at="11,41,16,14" />
-      <scope id="5902677980350520913" at="11,0,18,0" />
-      <unit id="5902677980350520913" at="10,0,25,0" name="CodeReviewPlugin.plugin.CodeReviewKeys_KeymapChanges" />
+      <node id="5902677980350538804" at="8,41,9,78" concept="2" />
+      <node id="5902677980350520918" at="9,78,10,78" concept="2" />
+      <node id="5902677980350520913" at="13,29,14,22" concept="9" />
+      <node id="5902677980350520913" at="8,0,12,0" concept="1" trace="CodeReviewKeys_KeymapChanges#()V" />
+      <node id="5902677980350520913" at="12,0,16,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="5902677980350520913" at="13,29,14,22" />
+      <scope id="5902677980350520913" at="8,41,10,78" />
+      <scope id="5902677980350520913" at="8,0,12,0" />
+      <scope id="5902677980350520913" at="12,0,16,0" />
+      <unit id="5902677980350520913" at="7,0,18,0" name="CodeReviewPlugin.plugin.CodeReviewKeys_KeymapChanges" />
     </file>
     <file name="CodeReviewPlugin_ApplicationPlugin.java">
       <node id="5902677980350520913" at="36,92,37,78" concept="2" />
@@ -269,26 +259,16 @@
       <node id="5902677980350526746" at="38,73,39,70" concept="2" />
     </file>
     <file name="MacOSX_KeymapChanges.java">
-      <node id="5902677980350526746" at="11,33,12,13" concept="10" />
-      <node id="5902677980350526746" at="12,13,13,33" concept="10" />
-      <node id="5902677980350538815" at="13,33,14,157" concept="2" />
-      <node id="5902677980350526747" at="14,157,15,157" concept="2" />
-      <node id="5902677980350526746" at="15,157,16,27" concept="10" />
-      <node id="5902677980350526746" at="16,27,17,14" concept="10" />
-      <node id="5902677980350526746" at="19,29,20,22" concept="9" />
-      <node id="5902677980350526746" at="22,53,23,70" concept="9" />
-      <node id="5902677980350526746" at="19,0,22,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
-      <node id="5902677980350526746" at="22,0,25,0" concept="13" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
-      <node id="5902677980350526746" at="11,0,19,0" concept="1" trace="MacOSX_KeymapChanges#()V" />
-      <scope id="5902677980350526746" at="19,29,20,22" />
-      <scope id="5902677980350526746" at="22,53,23,70" />
-      <scope id="5902677980350526746" at="19,0,22,0" />
-      <scope id="5902677980350526746" at="22,0,25,0">
-        <var name="stroke" id="5902677980350526746" />
-      </scope>
-      <scope id="5902677980350526746" at="11,33,17,14" />
-      <scope id="5902677980350526746" at="11,0,19,0" />
-      <unit id="5902677980350526746" at="10,0,26,0" name="CodeReviewPlugin.plugin.MacOSX_KeymapChanges" />
+      <node id="5902677980350538816" at="8,33,9,82" concept="2" />
+      <node id="5902677980350526748" at="9,82,10,82" concept="2" />
+      <node id="5902677980350526746" at="13,29,14,22" concept="9" />
+      <node id="5902677980350526746" at="8,0,12,0" concept="1" trace="MacOSX_KeymapChanges#()V" />
+      <node id="5902677980350526746" at="12,0,16,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="5902677980350526746" at="13,29,14,22" />
+      <scope id="5902677980350526746" at="8,33,10,82" />
+      <scope id="5902677980350526746" at="8,0,12,0" />
+      <scope id="5902677980350526746" at="12,0,16,0" />
+      <unit id="5902677980350526746" at="7,0,18,0" name="CodeReviewPlugin.plugin.MacOSX_KeymapChanges" />
     </file>
   </root>
   <root nodeRef="r:6453f55e-0946-4b0d-9f1a-f9fa6f8a1688(CodeReviewPlugin.plugin)/5902677980350526749">
@@ -296,26 +276,16 @@
       <node id="5902677980350526749" at="37,78,38,73" concept="2" />
     </file>
     <file name="MacOSX105_KeymapChanges.java">
-      <node id="5902677980350526749" at="11,36,12,13" concept="10" />
-      <node id="5902677980350526749" at="12,13,13,33" concept="10" />
-      <node id="5902677980350538824" at="13,33,14,157" concept="2" />
-      <node id="5902677980350526750" at="14,157,15,157" concept="2" />
-      <node id="5902677980350526749" at="15,157,16,27" concept="10" />
-      <node id="5902677980350526749" at="16,27,17,14" concept="10" />
-      <node id="5902677980350526749" at="19,29,20,28" concept="9" />
-      <node id="5902677980350526749" at="22,53,23,70" concept="9" />
-      <node id="5902677980350526749" at="19,0,22,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
-      <node id="5902677980350526749" at="22,0,25,0" concept="13" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
-      <node id="5902677980350526749" at="11,0,19,0" concept="1" trace="MacOSX105_KeymapChanges#()V" />
-      <scope id="5902677980350526749" at="19,29,20,28" />
-      <scope id="5902677980350526749" at="22,53,23,70" />
-      <scope id="5902677980350526749" at="19,0,22,0" />
-      <scope id="5902677980350526749" at="22,0,25,0">
-        <var name="stroke" id="5902677980350526749" />
-      </scope>
-      <scope id="5902677980350526749" at="11,36,17,14" />
-      <scope id="5902677980350526749" at="11,0,19,0" />
-      <unit id="5902677980350526749" at="10,0,26,0" name="CodeReviewPlugin.plugin.MacOSX105_KeymapChanges" />
+      <node id="5902677980350538825" at="8,36,9,82" concept="2" />
+      <node id="5902677980350526751" at="9,82,10,82" concept="2" />
+      <node id="5902677980350526749" at="13,29,14,28" concept="9" />
+      <node id="5902677980350526749" at="8,0,12,0" concept="1" trace="MacOSX105_KeymapChanges#()V" />
+      <node id="5902677980350526749" at="12,0,16,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
+      <scope id="5902677980350526749" at="13,29,14,28" />
+      <scope id="5902677980350526749" at="8,36,10,82" />
+      <scope id="5902677980350526749" at="8,0,12,0" />
+      <scope id="5902677980350526749" at="12,0,16,0" />
+      <unit id="5902677980350526749" at="7,0,18,0" name="CodeReviewPlugin.plugin.MacOSX105_KeymapChanges" />
     </file>
   </root>
 </debug-info>

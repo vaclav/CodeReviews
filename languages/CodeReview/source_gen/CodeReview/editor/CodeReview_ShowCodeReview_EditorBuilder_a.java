@@ -15,7 +15,6 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import java.awt.Color;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -83,7 +82,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
     EditorCell editorCell = getUpdateSession().getAttributedCell(AttributeKind.NODE, myNode);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.BACKGROUND_COLOR, StyleRegistry.getInstance().getSimpleColor(_StyleParameter_QueryFunction_xjt8q0_a0a0a()));
+    style.set(StyleAttributes.BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(_StyleParameter_QueryFunction_xjt8q0_a0a0a()));
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
@@ -106,7 +105,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setCellId("Collection_xjt8q0_b0a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BORDER, true);
-    style.set(StyleAttributes.BACKGROUND_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(15790335)));
+    style.set(StyleAttributes.BACKGROUND_COLOR, getStyleRegistry().getSimpleColor(new Color(15790335)));
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createCollection_3());
     editorCell.addEditorCell(createCollection_4());
@@ -132,9 +131,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
     EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new ModelAccessor.ReadOnly() {
       public String getText() {
         String status = SEnumOperations.getMemberPresentation(SPropertyOperations.getEnum(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.changes$WUF3)).last(), PROPS.status$wY9A));
-        LogContext.with(CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null).error("BBBBBBBB1 " + status);
+        LogContext.with(CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null, null).error("BBBBBBBB1 " + status);
         status = (status == null ? SEnumOperations.getMemberPresentation(SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0xc126621b8cee42a4L, 0x8eb8ffdf4b0da36aL, 0x72dc9a49a09624efL, "CodeReview.structure.ReviewStatus"), 0x72dc9a49a09624f0L, "In_Progress")) : status);
-        LogContext.with(CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null).error("BBBBBBBB2 " + status);
+        LogContext.with(CodeReview_ShowCodeReview_EditorBuilder_a.class, null, null, null).error("BBBBBBBB2 " + status);
         return status;
       }
     }, myNode);
@@ -168,7 +167,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_changes");
     Style style = new StyleImpl();
-    new CommentStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    new CommentStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;

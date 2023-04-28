@@ -2,7 +2,17 @@
   <id>CodeReviews</id>
   <name>CodeReviews</name>
   <category>Custom Languages</category>
-  <description>MPS code review support</description>
+  <description><![CDATA[
+  Allows including review review status in the code. Now just making it longer and longer and longer to pass the marketplace verification rule.<br/>
+Provides support for My Framework.
+The support includes:
+<ul>
+  <li>code completion</li>
+  <li>references</li>
+</ul>
+For more information visit the
+<a href="https://example.com">project site</a>.
+]]></description>
   <version>2022.3</version>
   <vendor url="https://github.com/vaclav/CodeReviews" logo="/MPS_16.png">Vaclav Pech</vendor>
   <idea-version since-build="223.1" until-build="231.1"/>

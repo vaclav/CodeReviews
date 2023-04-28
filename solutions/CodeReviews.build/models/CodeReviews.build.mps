@@ -68,6 +68,7 @@
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
         <child id="1238980147629899306" name="pluginXml" index="I30fb" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -164,6 +165,11 @@
       <node concept="55IIr" id="57Ex__Mkl59" role="I30fb">
         <node concept="2Ry0Ak" id="57Ex__Mkl7l" role="iGT6I">
           <property role="2Ry0Am" value="plugin.xml" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="1soUx0j3Ce" role="3s6cr7">
+        <node concept="3Mxwew" id="1soUx0j3Cg" role="3MwsjC">
+          <property role="3MwjfP" value="Allows including review review status in the code. Now just making it longer and longer and longer to pass the marketplace verification rule." />
         </node>
       </node>
     </node>

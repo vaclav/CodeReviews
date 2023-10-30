@@ -7,10 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55158b2d-763d-44a2-95f7-2dd5e011e9ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/CodeReview.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/CodeReview.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/CodeReview/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/CodeReview/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/main/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/main/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/template/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/template/main@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.intentions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/CodeReview.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/CodeReview.sandbox.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/models/CodeReview.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/models/CodeReview.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/source_gen.caches/CodeReview/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/source_gen.caches/CodeReview/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/behavior/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/constraints/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/intentions/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/intentions/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/deps.cp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/StatusChange_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/StatusChange_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/CodeReviewPlugin.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/CodeReviewPlugin.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/models/CodeReviewPlugin.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/models/CodeReviewPlugin.plugin.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/source_gen.caches/CodeReviewPlugin/plugin/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/source_gen.caches/CodeReviewPlugin/plugin/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/CodeReviews.build.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/CodeReviews.build.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/models/CodeReviews.build.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/models/CodeReviews.build.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen.caches/CodeReviews/build/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen.caches/CodeReviews/build/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/CodeReviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/CodeReviews.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +70,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="5e2f7524-081a-4bc5-abb1-e91cc1ace597/r:47867e34-1d96-4ba0-87d5-3abb083a57bd(TempModule5e2f7524-081a-4bc5-abb1-e91cc1ace597/ConsoleModel_88349230024004)">
+            <model ref="274beb77-bd43-4a17-96fa-180e28eb8cf5/r:174063bf-783e-422b-b1fa-105faf19436b(TempModule274beb77-bd43-4a17-96fa-180e28eb8cf5/ConsoleModel_9091451663537)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -56,11 +90,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1soUx0j3Ci">
-                <node concept="3balQm" id="1soUx0j3Cj" role="aymYE" />
-                <node concept="2Clz$F" id="1soUx0j3Ck" role="aymYO" />
-                <node concept="2_V_lH" id="1soUx0j3Cl" role="1PhJh3">
-                  <ref role="2_V_lI" node="1soUx0j3Ck" resolve="CommandHolder" />
+              <node concept="aymSD" id="9Bvcn7QYon">
+                <node concept="3balQm" id="9Bvcn7QYoo" role="aymYE" />
+                <node concept="2Clz$F" id="9Bvcn7QYop" role="aymYO" />
+                <node concept="2_V_lH" id="9Bvcn7QYoq" role="1PhJh3">
+                  <ref role="2_V_lI" node="9Bvcn7QYop" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -113,6 +147,9 @@
       </MessageListState>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="1Pdi5FFmIpixLunBLiIhbrV4KrP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
@@ -334,16 +371,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,22 +382,6 @@
               <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CodeReviews" />
               <option name="myItemType" value="" />
@@ -385,6 +396,22 @@
               <option name="myItemId" value="CodeReviews" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeReviews" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeReviews" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
               <option name="myItemType" value="" />
@@ -394,36 +421,14 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ad79e51b-9b1d-47e8-a3c8-dd8309b8276a(CodeReviews.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/CodeReviews/solutions/CodeReviews.build/models/CodeReviews.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5902677980350585274" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="Scope" />
+      <pane id="FileSystem">
+        <subPane>
           <expand>
             <path>
-              <item name="CodeReviews" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/work/mps_projects/CodeReviews" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="" type="" />
             </path>
           </expand>
           <select />
@@ -447,11 +452,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -561,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680697881209</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Addd a longer description innto plugin.xml as demanded by the market place.">
+      <created>1682667692991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682667692991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -589,6 +602,7 @@
     <MESSAGE value="Update to MPS 2020.3" />
     <MESSAGE value="Update to MPS 2022.2" />
     <MESSAGE value="Update to MPS 2022.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to MPS 2022.3" />
+    <MESSAGE value="Addd a longer description innto plugin.xml as demanded by the market place." />
+    <option name="LAST_COMMIT_MESSAGE" value="Addd a longer description innto plugin.xml as demanded by the market place." />
   </component>
 </project>

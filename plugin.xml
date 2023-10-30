@@ -13,9 +13,9 @@ The support includes:
 For more information visit the
 <a href="https://example.com">project site</a>.
 ]]></description>
-  <version>2022.3</version>
+  <version>2023.2</version>
   <vendor url="https://github.com/vaclav/CodeReviews" logo="/MPS_16.png">Vaclav Pech</vendor>
-  <idea-version since-build="223.1" until-build="231.1"/>
+  <idea-version since-build="232.1" until-build="233.1"/>
 
   <depends>jetbrains.mps.core</depends>
 

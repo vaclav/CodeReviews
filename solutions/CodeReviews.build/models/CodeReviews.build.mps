@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="8" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -148,7 +148,7 @@
       </node>
       <node concept="3_J27D" id="57Ex__MkhBq" role="m$_w8">
         <node concept="3Mxwew" id="57Ex__MkhBr" role="3MwsjC">
-          <property role="3MwjfP" value="2023.2" />
+          <property role="3MwjfP" value="2024.1" />
         </node>
       </node>
       <node concept="m$f5U" id="57Ex__MkhBs" role="m$_yh">

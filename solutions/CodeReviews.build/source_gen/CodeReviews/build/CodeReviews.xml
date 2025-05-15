@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/CodeReviews" />
   <property name="build.layout" location="${build.dir}/artifacts/CodeReviews" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../MPS2025.1EAP" />
   <property name="project_home" location="" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />

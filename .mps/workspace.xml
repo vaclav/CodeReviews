@@ -6,45 +6,41 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55158b2d-763d-44a2-95f7-2dd5e011e9ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/CodeReview.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/CodeReview.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/CodeReview/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/CodeReview/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/main/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/source_gen.caches/main/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/template/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/template/main@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/models/CodeReview.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/CodeReview.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/CodeReview.sandbox.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/models/CodeReview.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/models/CodeReview.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/source_gen.caches/CodeReview/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/source_gen.caches/CodeReview/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/constraints/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/intentions/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/intentions/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/CodeReview/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen.caches/deps.cp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/StatusChange_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/StatusChange_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/source_gen/CodeReview/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/CodeReviewPlugin.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/CodeReviewPlugin.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/models/CodeReviewPlugin.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/models/CodeReviewPlugin.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/source_gen.caches/CodeReviewPlugin/plugin/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/source_gen.caches/CodeReviewPlugin/plugin/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/CodeReviews.build.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/CodeReviews.build.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/models/CodeReviews.build.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/models/CodeReviews.build.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen.caches/CodeReviews/build/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen.caches/CodeReviews/build/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/CodeReviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/CodeReviews.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/source_gen/CodeReviews/build/trace.info" afterDir="false" />
+    <list default="true" id="55158b2d-763d-44a2-95f7-2dd5e011e9ee" name="Default Changelist" comment="Migrate to 2024.1">
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/BehaviorAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/BehaviorAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/behavior/CodeReview__BehaviorDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_a0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b1a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b1b0a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a$changesListHandler_xjt8q0_b1b0a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/CodeReview_ShowCodeReview_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$commentSingleRoleHandler_qb4idh_e0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a$commentSingleRoleHandler_qb4idh_e0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/editor/StatusChange_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/IntentionsDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/intentions/IntentionsDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/EnumerationDescriptor_ReviewStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/EnumerationDescriptor_ReviewStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/classes_gen/CodeReview/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/classes_gen/CodeReview/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/classes_gen/CodeReview/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/generator/classes_gen/main/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/generator/classes_gen/main/QueriesGenerated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CodeReview/sandbox/classes_gen/CodeReview/sandbox/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CodeReview/sandbox/classes_gen/CodeReview/sandbox/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/CodeReviewActions_ActionGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/CodeReviewActions_ActionGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/CodeReviewKeys_KeymapChanges.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/CodeReviewKeys_KeymapChanges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/CodeReviewPlugin_ApplicationPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/CodeReviewPlugin_ApplicationPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/HideCodeReviews_Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/HideCodeReviews_Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/MacOSX105_KeymapChanges.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/MacOSX105_KeymapChanges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/MacOSX_KeymapChanges.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/MacOSX_KeymapChanges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/ShowCodeReviews_Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviewPlugin/classes_gen/CodeReviewPlugin/plugin/ShowCodeReviews_Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/CodeReviews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/CodeReviews.build/classes_gen/CodeReviews/build/CodeReviews.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="274beb77-bd43-4a17-96fa-180e28eb8cf5/r:174063bf-783e-422b-b1fa-105faf19436b(TempModule274beb77-bd43-4a17-96fa-180e28eb8cf5/ConsoleModel_9091451663537)">
+            <model ref="10b7070b-4863-4dbb-8e6a-232ab9f4ee60/r:ed40f35a-5269-4bcc-b699-96c27bb67435(TempModule10b7070b-4863-4dbb-8e6a-232ab9f4ee60/ConsoleModel_286023330592708)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -90,11 +86,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="9Bvcn7QYon">
-                <node concept="3balQm" id="9Bvcn7QYoo" role="aymYE" />
-                <node concept="2Clz$F" id="9Bvcn7QYop" role="aymYO" />
-                <node concept="2_V_lH" id="9Bvcn7QYoq" role="1PhJh3">
-                  <ref role="2_V_lI" node="9Bvcn7QYop" resolve="CommandHolder" />
+              <node concept="aymSD" id="61sfpQX214x">
+                <node concept="3balQm" id="61sfpQX214y" role="aymYE" />
+                <node concept="2Clz$F" id="61sfpQX214z" role="aymYO" />
+                <node concept="2_V_lH" id="61sfpQX214$" role="1PhJh3">
+                  <ref role="2_V_lI" node="61sfpQX214z" />
                 </node>
               </node>
             </model>
@@ -147,9 +143,9 @@
       </MessageListState>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1Pdi5FFmIpixLunBLiIhbrV4KrP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
@@ -277,22 +273,12 @@
           <PluginState />
         </value>
       </option>
-      <option name="de.itemis.mps.editor.celllayout.runtime.plugin.Runtime_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
       <option name="de.itemis.mps.editor.diagram.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
         </value>
       </option>
       <option name="de.itemis.mps.mouselistener.runtime.plugin.Runtime_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="de.itemis.mps.selection.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -320,6 +306,20 @@
       <option name="de.slisson.mps.conditionalEditor.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
+        </value>
+      </option>
+      <option name="de.slisson.mps.editor.multiline.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="de.slisson.mps.editor.multiline.runtime.plugin.Multiline_PreferencesComponent" />
+                  <params />
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
         </value>
       </option>
       <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
@@ -373,57 +373,44 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ad79e51b-9b1d-47e8-a3c8-dd8309b8276a(CodeReviews.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/CodeReviews/solutions/CodeReviews.build/models/CodeReviews.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2968a3b2-03bc-4417-8497-e2b34697268c" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeReviews" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [CodeReviews] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [CodeReviews] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="CodeReviews.build [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [CodeReviews] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="CodeReviews.build [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'CodeReviews'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [CodeReviews] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="CodeReviews.build [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'CodeReviews'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+              <item name="r:ad79e51b-9b1d-47e8-a3c8-dd8309b8276a(CodeReviews.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/CodeReviews/solutions/CodeReviews.build/models/CodeReviews.build.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CodeReviews" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/work/mps_projects/CodeReviews" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -454,8 +441,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Build Script.CodeReviews.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RunManager">
@@ -574,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1682667692991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Migrate to 2024.1">
+      <option name="closed" value="true" />
+      <created>1724247213911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724247213911</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -603,6 +600,7 @@
     <MESSAGE value="Update to MPS 2022.2" />
     <MESSAGE value="Update to MPS 2022.3" />
     <MESSAGE value="Addd a longer description innto plugin.xml as demanded by the market place." />
-    <option name="LAST_COMMIT_MESSAGE" value="Addd a longer description innto plugin.xml as demanded by the market place." />
+    <MESSAGE value="Migrate to 2024.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate to 2024.1" />
   </component>
 </project>
